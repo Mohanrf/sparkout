@@ -1,0 +1,283 @@
+.chartcircle-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+}
+.chartcircle-outer {
+    background: #15011d;
+}
+.chartcircle-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+}
+.chartcircle-inner-left {
+    clip-path: polygon(0 0,50.2% 0,50.2% 100%,0 100%);
+    -webkit-clip-path: polygon(0 0,50.2% 0,50.2% 100%,0 100%);
+}
+.chartcircle-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chartcircle-inner-left .chartcircle-inner-fill {
+    clip-path: polygon(50% 0,100% 0,100% 100%,50% 100%);
+    -webkit-clip-path: polygon(50% 0,100% 0,100% 100%,50% 100%);
+}
+.chartcircle-inner-fill {
+    background: #ff6c1a;
+}
+.chartcircle-inner-fill {
+    transform: rotate(122.4deg);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.chartcircle-inner-right {
+    clip-path: polygon(50% 0,100% 0,100% 100%,50% 100%);
+    -webkit-clip-path: polygon(50% 0,100% 0,100% 100%,50% 100%);
+}
+.chartcircle-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 144px;
+    height: 144px;
+}
+.chartcircle-inner-fill {
+    width: 144px;
+    height: 144px;
+}
+.chartcircle-number {
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 122px;
+    width: 122px;
+}
+.chartcircle-number {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #15011d;
+    letter-spacing: .12px;
+    text-transform: uppercase;
+    text-align: left;
+    text-align: center;
+}
+.chartcircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.starbox-bottom {
+    margin: auto;
+    height: 18px;
+    width: 100px;
+    background: #15011d;
+    position: relative;
+}
+.starbox-fill {
+    background: #ff6c1a;
+    width: 80%;
+    height: 100%;
+    animation: starbox-fill 1s linear forwards;
+}
+.starbox {
+    text-align: center;
+    padding: 1rem;
+}
+.starbox-template {
+    width: 102%;
+    height: 113%;
+    background: url(/assets/images/career/starbox-template-new.svg) no-repeat center;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background-size: cover;
+}
+.box-top h3 {
+    font-weight: 600;
+}
+.reviews-box {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #fff;
+}
+.chat-text h4 {
+    font-size: 24px;
+    line-height: 120%;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.rating-box h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: var(--secondrycolor);
+    margin: 10px 0px;
+}
+
+
+.nav-pills .nav-link {
+    width: 100%;
+    background: #f3f6f9;
+    font-size: 14px;
+    color: #252b33;
+    border: 2px dashed #f3f6f9;
+    display: flex;
+    align-items: center;
+}
+.tab-count {
+    width: 25px;
+    height: 25px;
+    border-radius: 32px;
+    background: #ff6c1a;
+    border: 4px solid #ebaf8e;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.9375rem;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    color: #fff;
+    min-width: inherit;
+}
+.nav-pills .nav-link.active {
+    background: #fff;
+    border: 2px dashed #ff6c1a;
+}
+.nav-item {
+    width: 23%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.horizontal-tabs ul {
+    border: none;
+}
+.how-we-hire-section .accordion-body {
+    margin-top: 20px;
+    background: #f3f6f9;
+    padding: 20px;
+    border-radius: 4px;
+}
+.how-we-hire-section .accordion-body h3 {
+    padding-bottom: 10px;
+    color: #252b33;
+}
+.how-we-hire-section .accordion-body p {
+    padding-bottom: 10px;
+}
+.our-culture {
+    padding-bottom: 70px;
+}
+
+@media (max-width:1024px) {
+    .rating-box h5 {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .horizontal-tabs .tab-content>.tab-pane {
+        display: block;
+        opacity: 1;
+    }
+    .horizontal-tabs .accordion-item {
+        border: 1px solid #ff6a1a59 !important;
+        background-color: #fff;
+        margin-bottom: 15px!important;
+    }
+    .horizontal-tabs .accordion-button:not(.collapsed) {
+        background: #f1f1f1!important;
+        padding-left: 38px!important;
+    }
+    .how-we-hire-section .accordion-body {
+        margin-top: 0;
+        background: #fff;
+        padding: 20px;
+        border-radius: 0px;
+    }
+    .box-top h3 {
+        text-align: center;
+    }
+    .chartcircle {
+        margin: 40px 0px;
+    }
+    .chat-text h4 br {
+        display: block;
+    }
+    .chat-text h4 {
+        margin-right: 40px;
+    }
+    .box-bottom .row {
+        row-gap: 40px;
+    }
+    .rating-box h3 {
+        margin: 5px 0px;
+    }
+}
+@media (max-width:767px) {
+    .learn-more-btn a {
+        margin-bottom: 0px;
+    }
+    .box-top h3 {
+        font-size: 22px;
+    }
+    .chat-text h4 {
+        font-size: 20px;
+    }
+    .rating-box h3 {
+        font-size: 28px;
+        line-height: 120%;
+    }
+}
+@media (max-width:576px) {
+    .chartcircle {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:425px) {
+    .box-top h3 {
+        font-size: 18px;
+    }
+    .chat-text h4 {
+        font-size: 16px;
+    }
+    .rating-box h5 {
+        font-size: 16px;
+    }
+    .rating-box h3 {
+        font-size: 24px;
+        line-height: 100%;
+    }
+    .chat-text h4 {
+        margin-right: 20px;
+    }
+}

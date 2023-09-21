@@ -1,0 +1,262 @@
+<section class="blog-banners">
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-lg-10">
+        <div class="blog-head">
+          <h1>
+            Tune in to the leaders who are successfully reimagining the future
+            of business.
+          </h1>
+          <h2 class="mb-0">Built for Change</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="banner-img">
+          <img
+            src="assets/images/podcasts/podcast-banner.jpg"
+            class="img-fluid"
+            alt="blog banner"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="block-nav" class="mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="content-module rte-inline module">
+            <div class="nav-menu">
+              <ul class="nav_list">
+                <li>
+                  <span class="subscr-text"><b>Subscribe to series:</b></span>
+                </li>
+                <li style="padding-left: 0" class="hidden-xs">
+                  <span class="pipe-line"></span>
+                </li>
+
+                <li>
+                  <a href="#" class="apple">
+                    <img
+                      src="assets/images/podcasts/icon-apple-podcast.png"
+                      class="img-fluid"
+                      alt="blog banner"
+                      width="18"
+                    />
+                    <span> Apple Podcasts </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="google">
+                    <img
+                      src="assets/images/podcasts/icon-google-podcast.png"
+                      class="img-fluid"
+                      alt="blog banner"
+                      width="18"
+                    />
+                    <span> Google Podcasts </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="stitcher">
+                    <img
+                      src="assets/images/podcasts/icon-stitcher.png"
+                      class="img-fluid"
+                      alt="blog banner"
+                      width="18"
+                    />
+                    <span> Stitcher </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="spotify">
+                    <img
+                      src="assets/images/podcasts/icon-spotify.png"
+                      class="img-fluid"
+                      alt="blog banner"
+                      width="18"
+                    />
+                    <span> Spotify </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid podcasts">
+    <div class="podcasts-main">
+      <div class="row">
+        <div class="col-lg-5 col-md-5">
+          <figure>
+            <img
+              src="assets/images/podcasts/podcast1.jpg"
+              class="img-fluid"
+              alt="PODCAST"
+            />
+          </figure>
+        </div>
+        <div class="col-lg-7 col-md-7 mb-3">
+          <div class="podcast-main-content">
+            <h6>PODCAST</h6>
+            <h3>Creating Smart and Resilient Cities</h3>
+            <ang-music-player
+              [audioList]="audioList"
+              class="audio-player"
+            ></ang-music-player>
+            <a
+              class="transcipt-text"
+              title="Download transcript, PODCAST: The Technology Trends Shaping Our Collective Future. This opens a new window."
+              >Download transcript</a
+            >
+
+            <p>
+              Social commerce blends social experiences and e-commerce
+              transactions into a single path to purchase – and it’s forecasted
+              to reach more than $1 trillion by 2025. As more and more shoppers
+              expect to find community and connection in their online shopping
+              experiences, brands and retailers will have to determine not if,
+              but when, they should join the social commerce revolution.
+            </p>
+            <p class="date">05 Jan, 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="podcast-more-series">
+      <h1 class="text-center mt-5">More in this series</h1>
+      <hr class="mt-4 mb-5" />
+      <div class="podcasts-list">
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <figure>
+              <img
+                src="assets/images/podcasts/podcast2.jpg"
+                class="img-fluid"
+                alt="PODCAST"
+              />
+            </figure>
+          </div>
+          <div class="col-lg-9 col-md-9 mb-3">
+            <h6>PODCAST</h6>
+            <h3>Practical Sustainability: Impactful Carbon Trading</h3>
+
+            <p>
+              We know how to measure emissions. But it's much harder to measure
+              emissions reductions. The offset market is a perfect storm for
+              poor quality.
+            </p>
+            <p class="date">13 Jun, 2022</p>
+          </div>
+        </div>
+        <div class="podcast-recordings">
+          <ngb-accordion [closeOthers]="true" #acc="ngbAccordion">
+            <ngb-panel title="Listen now">
+              <ng-template ngbPanelContent>
+                <h6>PODCAST</h6>
+                <h3>Impactful Carbon Trading</h3>
+                <ang-music-player
+                  [audioList]="audioList2"
+                  class="audio-player"
+                ></ang-music-player>
+
+                <a
+                  class="transcipt-text"
+                  title="Download transcript, PODCAST: The Technology Trends Shaping Our Collective Future. This opens a new window."
+                  >Download transcript</a
+                >
+
+                <p>
+                  We know how to measure emissions. But it's much harder to
+                  measure emissions reductions. The offset market is a perfect
+                  storm for poor quality.
+                </p>
+
+                <span class="h-10"> </span>
+
+                <h4>Contributors</h4>
+
+                <p>
+                  <b>Marc Carrel-Billiard,</b> Senior Managing Director and Lead
+                  – Technology Innovation and Accenture Labs <br /><br />
+                  <b>Greg Bowman,</b> Director, Folding@home <br /><br />
+                  <b>Sandra Ro,</b> Chief Executive Officer, Global Blockchain
+                  Business Council (GBBC)
+                </p>
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+        </div>
+      </div>
+      <hr class="my-5" />
+      <div class="podcasts-list">
+        <div class="row">
+          <div class="col-lg-3 col-md-3">
+            <figure>
+              <img
+                src="assets/images/podcasts/podcast3.jpg"
+                class="img-fluid"
+                alt="PODCAST"
+              />
+            </figure>
+          </div>
+          <div class="col-lg-9 col-md-9 mb-3">
+            <h6>PODCAST</h6>
+            <h3>The Definition, the Promise, the Hype</h3>
+
+            <p>
+              There's no single definition of a metaverse, but in its simplest
+              form, it can be thought of as the next iteration of the web.
+            </p>
+            <p class="date">23 Feb, 2022</p>
+          </div>
+        </div>
+        <div class="podcast-recordings">
+          <ngb-accordion [closeOthers]="true" #acc="ngbAccordion">
+            <ngb-panel title="Listen now">
+              <ng-template ngbPanelContent>
+                <h6>PODCAST</h6>
+                <h3>Practical Sustainability: Impactful Carbon Trading</h3>
+                <ang-music-player
+                  [audioList]="audioList3"
+                  class="audio-player"
+                ></ang-music-player>
+
+                <a
+                  class="transcipt-text"
+                  title="Download transcript, PODCAST: The Technology Trends Shaping Our Collective Future. This opens a new window."
+                  >Download transcript</a
+                >
+
+                <p>
+                  We know how to measure emissions. But it's much harder to
+                  measure emissions reductions. The offset market is a perfect
+                  storm for poor quality.
+                </p>
+
+                <span class="h-10"> </span>
+
+                <h4>Contributors</h4>
+
+                <p>
+                  <b>Marc Carrel-Billiard,</b> Senior Managing Director and Lead
+                  – Technology Innovation and Accenture Labs <br /><br />
+                  <b>Greg Bowman,</b> Director, Folding@home <br /><br />
+                  <b>Sandra Ro,</b> Chief Executive Officer, Global Blockchain
+                  Business Council (GBBC)
+                </p>
+              </ng-template>
+            </ngb-panel>
+          </ngb-accordion>
+        </div>
+      </div>
+      <hr class="my-5" />
+    </div>
+  </div>
+</section>

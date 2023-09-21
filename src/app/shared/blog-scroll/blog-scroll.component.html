@@ -1,0 +1,351 @@
+<section class="blog-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="title-wrap">
+          <h4><span class="dots"></span> Blog</h4>
+          <h2>
+            <span>Take a peek </span> at our blogs on <br />
+            everything tech<span class="dots"></span>
+          </h2>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="title-wrap">
+          <p>
+            A collection of highly curated blogs on the latest technology and
+            major industry events. Stay up-to-date on topics such as Blockchain,
+            Artificial Intelligence, and much more.
+          </p>
+          <a [routerLink]="['/blog']" class="btn btn-primary"
+            >View all blog
+            <picture>
+              <source
+                type="image/webp"
+                srcset="assets/images/home-new/icon-arrow-up.webp"
+              />
+              <source
+                type="image/png"
+                srcset="assets/images/home-new/icon-arrow-up.png"
+              />
+              <img
+                loading="lazy"
+                data-src="assets/images/home-new/icon-arrow-up.svg"
+                alt="arrow-icon"
+                title="arrow-icon"
+                width="21"
+                height="21"
+                class="img-fluid"
+              />
+            </picture>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="blogs">
+      <owl-carousel-o [options]="blogOptions">
+        <ng-template carouselSlide>
+          <div class="blog-card">
+            <figure>
+              <picture>
+                <source
+                  srcset="
+                  assets/images/blog-details/top-ten-supply-chain/supply-chain-trends-for-2023.webp
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                  assets/images/blog-details/top-ten-supply-chain/supply-chain-trends-for-2023.jpg
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  loading="lazy"
+                  data-src="assets/images/blog-details/top-ten-supply-chain/supply-chain-trends-for-2023.jpg"
+                alt="10 Supply Chain Trends for 2023"
+                title="10 Supply Chain Trends for 2023"
+                width="461"
+                height="242"
+                class="img-fluid"
+              />
+              </picture>
+            </figure>
+            <h3>The Top 10 Supply Chain Management Trends for 2023: An In-Depth Look</h3>
+            <div class="d-flex justify-content-between align-items-center">
+              <a
+                [routerLink]="[
+                  '/top-ten-supply-chain-management-trends'
+                ]"
+                class="btn btn-primary"
+                >Learn More
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/icon-arrow-up.webp"
+                  />
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/icon-arrow-up.png"
+                  />
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/home-new/icon-arrow-up.svg"
+                    alt="arrow-icon"
+                    title="arrow-icon"
+                    width="21"
+                    height="21"
+                    class="img-fluid"
+                  />
+                </picture>
+              </a>
+              <p class="author"><span>By Sivabharathy</span> Aug 16, 2023</p>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-card">
+            <figure>
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="
+                    assets/images/blog-details/supply-chain-agility/supply-chain-agility-banner.webp
+                  "
+                />
+                <source
+                  type="image/jpg"
+                  srcset="
+                    assets/images/blog-details/supply-chain-agility/supply-chain-agility-banner.jpg
+                  "
+                />
+                <img
+                  loading="lazy"
+                  data-src="assets/images/blog-details/supply-chain-agility/supply-chain-agility-banner.jpg"                    
+                  alt="Supply Chain Agility in an Ever-Evolving World"
+                  title="Supply Chain Agility in an Ever-Evolving World"
+                  width="461"
+                  height="242"
+                  class="img-fluid"
+                />
+              </picture>
+            </figure>
+            <h3>Supply Chain Agility in an Ever-Evolving World</h3>
+            <div class="d-flex justify-content-between align-items-center">
+              <a
+                [routerLink]="['/supply-chain-agility-ever-evolving-world']"
+                class="btn btn-primary"
+                >Learn More
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/icon-arrow-up.webp"
+                  />
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/icon-arrow-up.png"
+                  />
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/home-new/icon-arrow-up.svg"
+                    alt="arrow-icon"
+                    title="arrow-icon"
+                    width="21"
+                    height="21"
+                    class="img-fluid"
+                  />
+                </picture>
+              </a>
+              <p class="author"><span>By Yokesh Sankar</span> Aug 08, 2023</p>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-card">
+            <figure>
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="
+                    assets/images/blog-details/smart-contracts-revolutionary/smart-contracts-revolutionary-role-supply-chain-management.webp
+                  "
+                />
+                <source
+                  type="image/jpg"
+                  srcset="
+                    assets/images/blog-details/smart-contracts-revolutionary/smart-contracts-revolutionary-role-supply-chain-management.jpg
+                  "
+                />
+                <img
+                  loading="lazy"
+                  data-src="assets/images/blog-details/smart-contracts-revolutionary/smart-contracts-revolutionary-role-supply-chain-management.jpg"
+                  alt="Smart Contracts role in revolutionizing Supply Chain Management"
+                  title="Smart Contracts role in revolutionizing Supply Chain Management"
+                  width="461"
+                  height="242"
+                  class="img-fluid"
+                />
+              </picture>
+            </figure>
+            <h3>
+              A Detailed Look at Smart Contracts revolutionary role in Supply
+              Chain Management
+            </h3>
+            <div class="d-flex justify-content-between align-items-center">
+              <a
+                [routerLink]="[
+                  '/smart-contracts-revolutionary-role-supply-chain-management'
+                ]"
+                class="btn btn-primary"
+                >Learn More
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/icon-arrow-up.webp"
+                  />
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/icon-arrow-up.png"
+                  />
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/home-new/icon-arrow-up.svg"
+                    alt="arrow-icon"
+                    title="arrow-icon"
+                    width="21"
+                    height="21"
+                    class="img-fluid"
+                  />
+                </picture>
+              </a>
+              <p class="author"><span>By Sivabharathy</span> Aug 01, 2023</p>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-card">
+            <figure>
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="
+                    assets/images/blog-details/future-banking-industry/generative-ai-future-banking-industry.webp
+                  "
+                />
+                <source
+                  type="image/jpg"
+                  srcset="
+                    assets/images/blog-details/future-banking-industry/generative-ai-future-banking-industry.jpg
+                  "
+                />
+                <img
+                    loading="lazy"                  
+                    data-src="assets/images/blog-details/future-banking-industry/generative-ai-future-banking-industry.jpg"
+                   alt="How will Generative AI Shake Up the Future of the Banking Industry?"
+                  title="Generative AI Shake Up the Future of the Banking Industry"
+                  width="461"
+                  height="242"
+                  class="img-fluid"
+                />
+              </picture>
+            </figure>
+            <h3>
+              How will Generative AI Shake Up the Future of the Banking
+              Industry?
+            </h3>
+            <div class="d-flex justify-content-between align-items-center">
+              <a
+                [routerLink]="[
+                  '/generative-artificial-intelligence-future-banking-industry'
+                ]"
+                class="btn btn-primary"
+                >Learn More
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/icon-arrow-up.webp"
+                  />
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/icon-arrow-up.png"
+                  />
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/home-new/icon-arrow-up.svg"
+                    alt="arrow-icon"
+                    title="arrow-icon"
+                    width="21"
+                    height="21"
+                    class="img-fluid"
+                  />
+                </picture>
+              </a>
+              <p class="author"><span>By Yokesh Sankar</span> Jul 25, 2023</p>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-card">
+            <figure>
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="
+                    assets/images/blog-details/generative-ai/generative-ai-in-financial-services.webp
+                  "
+                />
+                <source
+                  type="image/jpg"
+                  srcset="
+                    assets/images/blog-details/generative-ai/generative-ai-in-financial-services.jpg
+                  "
+                />
+                <img
+                  loading="lazy"
+                  data-src="assets/images/blog-details/generative-ai/generative-ai-in-financial-services.jpg"
+                  alt="Generative AI in Financial Services"
+                  title="Exploring the Rise of Generative AI in the Financial Services"
+                  width="461"
+                  height="242"
+                  class="img-fluid"
+                />
+              </picture>
+            </figure>
+            <h3>
+              Exploring the Rise of Generative AI in the Financial Services
+            </h3>
+            <div class="d-flex justify-content-between align-items-center">
+              <a
+                [routerLink]="[
+                  '/generative-ai-driving-change-financial-services'
+                ]"
+                class="btn btn-primary"
+                >Learn More
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/icon-arrow-up.webp"
+                  />
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/icon-arrow-up.png"
+                  />
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/home-new/icon-arrow-up.svg"
+                    alt="arrow-icon"
+                    title="arrow-icon"
+                    width="21"
+                    height="21"
+                    class="img-fluid"
+                  />
+                </picture>
+              </a>
+              <p class="author"><span>By Sivabharathy</span> July 18, 2023</p>
+            </div>
+          </div>
+        </ng-template>
+      </owl-carousel-o>
+    </div>
+  </div>
+</section>

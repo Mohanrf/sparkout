@@ -1,0 +1,584 @@
+<div class="container">
+  <div class="row mb-4 d-flex align-items-center">
+    <div class="col-lg-8 col-md-8">
+      <div class="title-wrap">
+        <h4>News & Blog</h4>
+        <h2>
+          An online journal of the latest tech <br />innovations and insights
+        </h2>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 my-3 d-none d-md-block">
+      <div class="text-right">
+        <div class="spark-cta">
+          <a [routerLink]="['/blog']" class="about-us">
+            <span class="text">
+              Explore More
+              <span class="arrow">
+                <i><span>→</span></i>
+                <svg
+                  class="arrow-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                >
+                  <g
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="10"
+                  >
+                    <circle
+                      class="arrow-icon--circle"
+                      cx="16"
+                      cy="16"
+                      r="15.12"
+                    ></circle>
+                  </g>
+                </svg>
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <owl-carousel-o [options]="blogPost">
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/generative-ai-driving-change-financial-services'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/generative-ai/generative-ai-in-financial-services.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Generative AI in Financial Services"
+                  title="Generative AI in Financial Services"
+                />
+              </figure>
+              <h3>
+                Exploring the Rise of Generative AI in the Financial Services
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Jul 18, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/machine-learning-for-asset-management-ensures-low-risk'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/machine-learning-for-asset-management/machine-learning-for-asset-management.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Machine Learning For Asset Management Ensures Low Risk"
+                  title="Machine Learning For Asset Management Ensures Low Risk"
+                />
+              </figure>
+              <h3>Machine Learning For Asset Management Ensures Low Risk</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Jul 11, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/future-technology-hold-order-management-systems'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/order-management-blog/Future-of-TradingTech-Order-Management-System.jpg"
+                  class="mb-3 img-fluid"
+                  alt="What Does Future Technology Hold for Order Management Systems?"
+                  title="Future Technology Hold for Order Management"
+                />
+              </figure>
+              <h3>
+                What Does Future Technology Hold for Order Management Systems?
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Jul 04, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/future-technology-hold-order-management-systems'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/order-management-blog/Future-of-TradingTech-Order-Management-System.jpg"
+                  class="mb-3 img-fluid"
+                  alt="What Does Future Technology Hold for Order Management Systems?"
+                  title="Future Technology Hold for Order Management"
+                />
+              </figure>
+              <h3>
+                What Does Future Technology Hold for Order Management Systems?
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Jul 04, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="['/changing-landscape-investment-banking-fintech']"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/changing-landscape-investment-banking-fintech-blog/changing-landscape-investment-banking-fintech-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="The Changing Landscape of Investment Banking with Fintech"
+                  title="The Changing Landscape of Investment Banking with Fintech"
+                />
+              </figure>
+              <h3>The Changing Landscape of Investment Banking with Fintech</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Jun 27, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/impact-artificial-intelligence-machine-learning-investment-banking'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/impact-artificial-intelligence-blog/impact-of-ai-and-ml-on-investment-banking.jpg"
+                  class="mb-3 img-fluid"
+                  alt="How AI and ML Are Streamlining Operations in Investment Banking"
+                  title="AI and ML Are Streamlining Operations in Investment Banking"
+                />
+              </figure>
+              <h3>
+                How AI and ML Are Streamlining Operations in Investment Banking
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Jun 23, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/ai-blockchain-shaping-future-technology']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/ai-blockchain-shaping-future/ai-blockchain-shaping-future-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="How do AI and Blockchain complement each other?: Together Shaping the future of technology"
+                  title="How do AI and Blockchain Shaping the future of technology "
+                />
+              </figure>
+              <h3>
+                How do AI and Blockchain complement each other?: Together
+                Shaping the future of technology
+              </h3>
+              <div class="blog-author-detail">
+                <p>By yokesh Sankar | Jun 20, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/machine-learning-benefit-order-management']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/machine-learning-benefit-order-management-blog/machine-learning-benefit-order-management-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Does Machine Learning Benefit Order Management?"
+                  title="Machine Learning in Order Management"
+                />
+              </figure>
+              <h3>Does Machine Learning Benefit Order Management?</h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Jun 16, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/big-data-analytics-help-asset-management-better-investment-decisions'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/big-data-analytics-blog/big-data-analytics-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="How Big Data Analytics Help Asset Management Make Better Investment Decisions?"
+                  title="Big Data Analytics Help Asset Management"
+                />
+              </figure>
+              <h3>
+                How Big Data Analytics Help Asset Management Make Better
+                Investment Decisions?
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Jun 13, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/spatial-computing-app-development-apple-vision-pro'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/apple-vision-pro-app-development-blog/apple-vision-pro-app-development-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Rendering Spatial Computing App Development For Apple Vision Pro"
+                  title="App Development For Apple Vision Pro"
+                />
+              </figure>
+              <h3>
+                Rendering Spatial Computing App Development For Apple Vision Pro
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Jun 09, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/fintech-future-wealth-management']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/fintech-future-wealth-management-blog/wealth-management-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Fintech, The Future Of Wealth Management"
+                  title="The Future Of Wealth Management"
+                />
+              </figure>
+              <h3>Fintech, The Future Of Wealth Management</h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Jun 07, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/wealth-management-digital-transformation']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/digital-transformation-blog/digital-transformation-is-opening-up-new-avenues-for-wealth-management-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Wealth management is gearing up for the evolution of digital transformation"
+                  title="Wealth management is gearing up for the evolution of digital transformation"
+                />
+              </figure>
+              <h3>
+                Wealth management is gearing up for the evolution of digital
+                transformation
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | May 03, 2023</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/emerging-digital-health-technology']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/healthcare-blog/healthcare-blog-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Problems in the Healthcare Industry and Their Solutions"
+                  title="Problems in the Healthcare Industry and Their Solutions"
+                />
+              </figure>
+              <h3>Problems in the Healthcare Industry and Their Solutions</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Oct 24, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/everything-you-need-to-know-about-edi']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/edi-blog/edi-blog-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Explore The Future Of EDI In Business Communication"
+                  title="Explore The Future Of EDI In Business Communication"
+                />
+              </figure>
+              <h3>Explore the future of EDI in business communication</h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Oct 19, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/technologies-shaping-the-future-of-fintech']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/fintech-blog/fintech-blog-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Technologies Deriving The Best Of FinTech"
+                  title="Technologies Deriving The Best Of FinTech"
+                />
+              </figure>
+              <h3>Technologies deriving the best of Fintech</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Oct 13, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/digital-transformation-of-manufacturing-industries'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/digitalization-trends-blog/digitalization-trends-blog-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Manufacturing Industry Invaded By Trending Digitization"
+                  title="Manufacturing Industry Invaded By Trending Digitization"
+                />
+              </figure>
+              <h3>
+                The manufacturing industry invaded by trending Digitization
+              </h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Oct 06, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="[
+                '/why-its-better-to-be-cloud-smart-than-cloud-first'
+              ]"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/cloud-first-blog/cloud-smart-blog-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Make a smart move with Cloud-Smart rather than Cloud-First"
+                  title="Make a smart move with Cloud-Smart"
+                />
+              </figure>
+              <h3>Make a smart move with Cloud-Smart</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Sep 28, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a
+              [routerLink]="['/digital-trends-transforming-logistics-industry']"
+            >
+              <figure>
+                <img
+                  src="assets/images/blog-details/logistics-blog/logistics-blog-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Will digital trends revolutionize and reshape the world? 5 digital trends transforming the logistics industry | Sparkout Tech"
+                  title="5 digital trends transforming the Logistics industry"
+                />
+              </figure>
+              <h3>5 digital trends transforming the Logistics industry</h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Sep 21, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/build-chat-app-like-discord']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/discard-like-chat-app-blog/build-chat-app-like-discord-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Explore more about the Discord chat app and its features"
+                  title="Explore more about Discord and its features"
+                />
+              </figure>
+              <h3>Explore more about Discord and its features</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Sep 15, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/progressive-web-apps-rise']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/pwas-blog/pwas-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Exploring How Progressive Web App Development Hit Massive Traction"
+                  title="Perks of Progressive Web Applications"
+                />
+              </figure>
+              <h3>Perks of Progressive Web Applications</h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Sep 07, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/stages-of-new-product-development-process']">
+              <figure>
+                <img
+                  src="assets/images/npd/npd-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="7 Essential Stages for Success when developing a new product using NPD"
+                  title="7 Essential Stages for Success when developing a new product using NPD"
+                />
+              </figure>
+              <h3>The 7 steps involved in New Product Development</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Sep 01, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/artificial-intelligence-in-business']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/artificial-intelligence-blog/artificial-intelligence-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="If we blindly follow AI, where does that leave us? — 5  ways to use AI | Sparkout Tech "
+                  title="Five ways to use AI"
+                />
+              </figure>
+              <h3>The impact of Artificial Intelligence on business</h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Aug 25, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/machine-learning-in-healthcare']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/machine-blog/machine-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Machine Learning is revolutionizing Healthcare-Is this the Future ? | Sparkout Tech"
+                  title="Machine Learning is revolutionizing Healthcare-Is this the Future ? | Sparkout Tech"
+                />
+              </figure>
+              <h3>10 use cases of Machine Learning in healthcare</h3>
+              <div class="blog-author-detail">
+                <p>By Yokesh Sankar | Aug 17, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+        <ng-template carouselSlide>
+          <div class="blog-wrap">
+            <a [routerLink]="['/python-frameworks']">
+              <figure>
+                <img
+                  src="assets/images/blog-details/python-blog/python-banner.jpg"
+                  class="mb-3 img-fluid"
+                  alt="Python Web Development Frameworks"
+                  title="Best Python Frameworks for web development"
+                />
+              </figure>
+              <h3>Best Python Frameworks for web development</h3>
+              <div class="blog-author-detail">
+                <p>By Sivabharathy | Aug 11, 2022</p>
+              </div>
+            </a>
+          </div>
+        </ng-template>
+      </owl-carousel-o>
+    </div>
+  </div>
+
+  <div class="text-center d-block d-md-none">
+    <div class="spark-cta">
+      <a [routerLink]="['/blog']" class="about-us">
+        <span class="text">
+          Explore More
+          <span class="arrow">
+            <i><span>→</span></i>
+            <svg
+              class="arrow-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+            >
+              <g
+                fill="none"
+                stroke="#fff"
+                stroke-width="2"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+              >
+                <circle
+                  class="arrow-icon--circle"
+                  cx="16"
+                  cy="16"
+                  r="15.12"
+                ></circle>
+              </g>
+            </svg>
+          </span>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>

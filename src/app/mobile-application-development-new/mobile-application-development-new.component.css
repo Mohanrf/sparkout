@@ -1,0 +1,142 @@
+.second-acc {
+  border: 1px solid #ff6a1a59 !important;
+  margin-bottom: 15px !important;
+}
+.what-we-do-app:hover,
+.what-we-do-app:focus {
+  box-shadow: none;
+}
+.mobile-app {
+  text-align: center;
+  padding: 20px 10px;
+  border: 1px solid #f7f3f2;
+  height: 100%;
+}
+.mobile-app img {
+  padding-bottom: 15px;
+  width: 55px;
+}
+.mobile-app h3 {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #192a44;
+  padding: 0;
+}
+.what-we-do-app h3 {
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 15px;
+}
+.mobile-process-image {
+  text-align: center;
+}
+.mobile-tech-content p,
+.mobile-tech-content h3 {
+  text-align: start;
+}
+
+.expect-wrap {
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  height: 100%;
+}
+.expect-item {
+  display: flex;
+  align-items: baseline;
+  margin: 20px 0px;
+}
+.expect-head h3 {
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #192a44;
+}
+.expect-item p {
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 0px;
+}
+.expect-item img {
+  margin-bottom: 5px;
+}
+.why-choose-app {
+  padding: 30px;
+  background: #f3f6f9;
+  height: 100%;
+}
+.why-choose-app h3 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #192a44;
+  margin: 0 0 15px;
+}
+.why-choose-app img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin: 0 0 15px;
+}
+.odd-even-bg .col-lg-3:nth-child(1) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(3) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(6) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(8) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(9) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(11) .mobile-app {
+  background: #f1f1f1;
+}
+.odd-even-bg .col-lg-3:nth-child(2) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(4) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(5) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(7) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(10) .mobile-app,
+.odd-even-bg .col-lg-3:nth-child(12) .mobile-app {
+  background: #fff6f6;
+}
+.solutions-card {
+  min-height: 350px !important;
+}
+
+.accordion-body ul li {
+  color: #4c596d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 168%;
+  padding-bottom: 25px;
+  z-index: 9;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .why-choose-app h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .what-we-do .title-wrap::before {
+    width: 280px;
+    height: 240px;
+  }
+}
+@media (max-width: 767px) {
+  .accordion-body ul li {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .what-we-do-app {
+    padding: 10px !important;
+  }
+  .mobile-app h3,
+  .what-we-do-app h3 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .mobile-app img {
+    width: 60px;
+    height: auto;
+  }
+}

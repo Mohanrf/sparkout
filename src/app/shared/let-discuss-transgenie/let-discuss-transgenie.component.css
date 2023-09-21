@@ -1,0 +1,121 @@
+.contact-wrap{
+    padding: 50px 0px 75px;
+}
+.contact-whole-wrap h1{
+    font-size:44px;
+    line-height:60px;
+    font-weight: 700;
+    color:#fff;
+    margin:0 0 0;
+    padding: 0;
+}
+.contact-whole-wrap p{
+    font-size:22px;
+    line-height:34px;
+    font-weight: 400;
+    color:#fff;
+    margin:0 0 0;
+    padding: 0;
+    width:60%;
+}
+.contact-whole-wrap{
+    background-image: linear-gradient(102deg, #ff6c1a, #cf5f21 100%);
+    padding: 75px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a.btn-contact {
+    padding: 15px 50px;
+    background: #fff;
+    font-size: 24px;
+    color:#252b33;
+    border-radius: 40px;
+    font-weight: 400;
+    transition:.2s all ease-in-out;
+    text-decoration: none;
+    display: flex;
+    white-space: nowrap;
+}
+a.btn-contact:hover, a.btn-contact:focus{
+    outline:2px solid #cf5f21;
+    outline-offset: -5px;
+    transition:.2s all ease-in-out;
+}
+a.btn-contact img{
+    margin:0 0px 0px 20px;
+}
+@media(max-width:1600px){
+    .contact-whole-wrap h1{
+        font-size: 40px;
+        line-height: 55px;
+    }
+}
+@media(max-width:1440px){
+    .contact-whole-wrap h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .contact-whole-wrap p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-whole-wrap {
+        padding: 50px;
+    }
+    a.btn-contact{
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}
+@media(max-width:1280px){
+    .contact-whole-wrap p {
+        width: 75%;
+    }
+    .contact-whole-wrap h1{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    a.btn-contact{
+        font-size:18px;
+        padding:10px 25px;
+    }
+}
+@media(max-width:991px){
+    .contact-whole-wrap p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .contact-whole-wrap h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .contact-whole-wrap{
+        padding: 40px;
+    }
+    a.btn-contact{
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+}
+@media(max-width:767px){
+    .contact-whole-wrap p{
+        font-size: 14px;
+        line-height: 26px;
+        margin: 0 0 20px;
+    }
+    .contact-whole-wrap h1{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    a.btn-contact{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .contact-whole-wrap{
+        padding: 30px;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+}

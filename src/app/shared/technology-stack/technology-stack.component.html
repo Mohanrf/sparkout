@@ -1,0 +1,761 @@
+<section class="technolgies">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-lg-10 col-md-11 col-sm-12 mx-auto">
+        <div class="common-text-wrap text-center">
+          <h4>Tools</h4>
+          <h2>
+            Businesses succeed when they leverage the right technology. That's
+            why we're here.
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-lg-12">
+        <div class="tech-stack-details">
+          <ul class="techstack">
+            <li class="tech-list" *ngFor="let techmenu of technologystack">
+              <a
+                routerLink
+                (click)="opentechnology(techmenu)"
+                [ngClass]="{ 'actives-tech': techlisted === techmenu }"
+                >{{ techmenu }}</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ng-container *ngIf="techlisted === 'Mobile'">
+          <div
+            class="row row-cols-lg-5 justify-content-center text-center g-2 g-lg-4"
+          >
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/ios.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="ios"
+                />
+                <p>ios</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/android.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Android"
+                />
+                <p>Android</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/flutter.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Flutter"
+                />
+                <p>Flutter</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/react-native.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="React Native"
+                />
+                <p>React Native</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/ionic.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Ionic"
+                />
+                <p>Ionic</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/swift.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Swift"
+                />
+                <p>Swift</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/kotlin.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Kotiln"
+                />
+                <p>Kotiln</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/obj-c.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="objC"
+                />
+                <p>obj-C</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/titanium.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Titanium"
+                />
+                <p>Titanium</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/xamrin.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Xamarin"
+                />
+                <p>Xamarin</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/mobile/dart.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Dart"
+                />
+                <p>Dart</p>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="techlisted === 'Front End'">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/angular-js.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Angular JS"
+                />
+                <p>Angular JS</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/react-js.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="React Js"
+                />
+                <p>React Js</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/type-script.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="TypeScript"
+                />
+                <p>TypeScript</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/vue-js.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Vue Js"
+                />
+                <p>Vue Js</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/html5.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="HTML5"
+                />
+                <p>HTML5</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/sass.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="SASS"
+                />
+                <p>SASS</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/css.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="CSS3"
+                />
+                <p>CSS3</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/Wordpress.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Word Press"
+                />
+                <p>Word Press</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/frontend/knockout-js.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Knockout JS"
+                />
+                <p>Knockout JS</p>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="techlisted === 'Testing'">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/testing/selinum.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Selenium"
+                />
+                <p>Selenium</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/testing/jmeter.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="jMeter"
+                />
+                <p>jMeter</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/testing/jira.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Jira"
+                />
+                <p>Jira</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/testing/Buggie.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Buggie"
+                />
+                <p>Buggie</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/testing/appium.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Appium"
+                />
+                <p>Appium</p>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="techlisted === 'UI/UX'">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/Illustrator.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Illustrator"
+                />
+                <p>Illustrator</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/photoshop.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Photoshop"
+                />
+                <p>Photoshop</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/adobexds.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Adobe XD"
+                />
+                <p>Adobe XD</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/affer-effct.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="After Effects"
+                />
+                <p>After Effects</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/figma.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Figma"
+                />
+                <p>Figma</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/sketch.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Sketch"
+                />
+                <p>Sketch</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/invision.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Invision"
+                />
+                <p>Invision</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/ui/zeplin.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Zeplin"
+                />
+                <p>Zeplin</p>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="techlisted === 'DevOps'">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/devops/aws.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Amazon AWS"
+                />
+                <p>Amazon AWS</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/devops/mazure.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Microsoft Azure"
+                />
+                <p>Microsoft Azure</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/devops/digital-ocean.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Digital Ocean"
+                />
+                <p>Digital Ocean</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/devops/docker.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Docker"
+                />
+                <p>Docker</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/devops/kubernetes.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Kubernetes"
+                />
+                <p>Kubernetes</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/devops/jenkins.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Jenkins"
+                />
+                <p>Jenkins</p>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="techlisted === 'Database'">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/firebase.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Firebase"
+                />
+                <p>Firebase</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/Elasticsearch.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Elastic Search"
+                />
+                <p>Elastic Search</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/mongo.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Mango DB"
+                />
+                <p>Mango DB</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/mssql.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="MsSQL"
+                />
+                <p>MsSQL</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/redis.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Redis"
+                />
+                <p>Redis</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/postredge.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="PostgreSQL"
+                />
+                <p>PostgreSQL</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/Oracle.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Oracle"
+                />
+                <p>Oracle</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/mysql.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="MySQL"
+                />
+                <p>MySQL</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/dynamodb.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Dynamo DB"
+                />
+                <p>Dynamo DB</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/maria.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Maria DB"
+                />
+                <p>Maria DB</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/database/Realm.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Realm"
+                />
+                <p>Realm</p>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="techlisted === 'Back End'">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/php.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="PHP"
+                />
+                <p>PHP</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/java.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Java"
+                />
+                <p>Java</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/node-js.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Node Js"
+                />
+                <p>Node Js</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/rails.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Rails"
+                />
+                <p>Rails</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/python.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Python"
+                />
+                <p>Python</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/golang.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Golang"
+                />
+                <p>Golang</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/net.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt=".Net"
+                />
+                <p>.Net</p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-4">
+              <div class="tech-stack-details">
+                <img
+                  src="assets/images/techstack/backend/laravel.svg"
+                  width="80"
+                  height="80"
+                  class="mb-3"
+                  alt="Larevel"
+                />
+                <p>Larevel</p>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</section>

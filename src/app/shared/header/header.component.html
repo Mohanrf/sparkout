@@ -1,0 +1,976 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar_top">
+    <div class="container">
+      <a class="navbar-brand me-0" [routerLink]="['/']">
+        <img
+          src="assets/images/logo/logo.svg"
+          width="320"
+          height="73"
+          alt="Sparkout-tech-solution"
+          title="Sparkout Tech Solution"
+        />
+      </a>
+      <div class="btn--hover d-lg-none d-col-block">
+        <a class="btn about-us" role="button" [routerLink]="['/contact-us']"
+          >Let's Talk
+          <span class="move-arow">
+            <img
+              src="assets/images/arrow-right.svg"
+              width="17"
+              height="18"
+              class="ms-2 arrow"
+              alt="Sparkout Tech Solution Pvt Ltd"
+            />
+          </span>
+        </a>
+      </div>
+      <button
+        class="btn btn-primary navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        <span class="">
+          <i class="bi bi-list"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Services</a
+            >
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about py-lg-0">
+                <div class="container">
+                  <div class="row">
+                    <div
+                      class="col-12 col-sm-6 col-md-6 col-lg-4 bg-blue d-flex flex-column"
+                    >
+                      <div
+                        class="our-menu-services our-menu-services d-flex align-items-start flex-column"
+                      >
+                        <div>
+                          <h4>Our Services</h4>
+                          <p>
+                            Leveraging cutting-edge technologies to build
+                            industry-leading digital products.
+                          </p>
+                        </div>
+                        <div class="mb-5">
+                          <a class="btn about-us" (click)="onClick()"
+                            >Let's Talk
+                            <img
+                              src="assets/images/arrow-right.svg"
+                              width="10"
+                              height="10"
+                              class="ms-2 arrow"
+                              alt="Sparkout-tech-solution"
+                            />
+                          </a>
+                        </div>
+                        <h5 class="mt-auto">
+                          <a (click)="onClick2()">Development Methodology</a>
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <ul class="mega-menu-links pr-0">
+                        <h4>Our Service Catalog</h4>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/mobile-application-development']"
+                            >Mobile Application
+                            <p class="info-text">
+                              iOS, Android and Wearable Apps
+                            </p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/web-application-development']"
+                            >Web Development
+                            <p class="info-text">Front End and Back End</p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/ui-ux-development']"
+                            >UI-UX Design
+                            <p class="info-text">UX, UI and UX Audit</p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/quality-assurance-and-testing-services'
+                            ]"
+                            >QA & Testing
+                            <p class="info-text">
+                              Manual and Automation Testing
+                            </p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/devops-services']"
+                            >DevOps
+                            <p class="info-text">
+                              Architecture and Cloud Services
+                            </p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <ul class="mega-menu-links pl-0">
+                        <h4>Trending Technologies</h4>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/blockchain-development-company']"
+                            >Blockchain Development
+                            <p class="info-text">Consulting and Development</p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/drone-software-development']"
+                            >Drone Development
+                            <p class="info-text">
+                              Get Industry specific solutions
+                            </p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/ar-vr-application-development']"
+                            >AR and VR
+                            <p class="info-text">
+                              App, Face and Gesture Recognition
+                            </p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/machine-learning-development']"
+                            >Machine Learning
+                            <p class="info-text">
+                              Consultant, Development and Maintenance
+                            </p>
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/internet-of-things']"
+                            >Internet of Things
+                            <p class="info-text">
+                              Gadgets, Devices, and Sensors
+                            </p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Solutions</a
+            >
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about py-lg-0">
+                <div class="container">
+                  <div class="row">
+                    <div
+                      class="col-12 col-sm-6 col-md-6 col-lg-4 bg-blue d-flex flex-column"
+                    >
+                      <div class="our-menu-services">
+                        <div>
+                          <h4>Our Solutions</h4>
+                          <p>
+                            Customized digital solutions to help clients build
+                            their competitive edge.
+                          </p>
+                        </div>
+                        <div class="mb-5">
+                          <a class="btn about-us" (click)="onClick()"
+                            >Let's Talk
+                            <img
+                              src="assets/images/arrow-right.svg"
+                              width="10"
+                              height="10"
+                              class="ms-2 arrow"
+                              alt="Sparkout-tech-solution"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <ul class="mega-menu-links-second pr-0">
+                        <h4>Trending Solutions</h4>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/transgenie']"
+                            >TransGenie - Logistics & Field Management</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/enterprise-software-development']"
+                            >Enterprise Software Solutions</a
+                          >
+                        </li>
+
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/ecommerce-application-development'
+                            ]"
+                            >Ecommerce Solution</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/on-demand-application-development'
+                            ]"
+                            >On-Demand Solution</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/online-food-delivery-solution']"
+                            >Food Delivery Solution</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/chat-application-development']"
+                            >Chat Solution</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <ul class="mega-menu-links-second pl-0">
+                        <h4>Industries</h4>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/real-estate-application-development'
+                            ]"
+                            >Real Estate</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/travel-application-development']"
+                            >Travel</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/sports-application-development']"
+                            >Sports</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/social-media-application-development'
+                            ]"
+                            >Social Networking</a
+                          >
+                        </li>
+
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/media-and-entertainment-application-development'
+                            ]"
+                            >Media & Entertainment</a
+                          >
+                        </li>
+
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              './healthcare-application-development'
+                            ]"
+                            >Healthcare Solution</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >About Us</a
+            >
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about py-lg-0">
+                <div class="container">
+                  <div class="row">
+                    <div
+                      class="col-12 col-sm-6 col-md-6 col-lg-4 bg-blue d-flex flex-column"
+                    >
+                      <div class="our-menu-services">
+                        <div>
+                          <h4>About Us</h4>
+                          <p>
+                            A full-cycle software and mobile app development
+                            company with a world-class team of innovators.
+                          </p>
+                        </div>
+                        <div class="mb-5">
+                          <a class="btn about-us" (click)="onClick()"
+                            >Let's Talk
+                            <img
+                              src="assets/images/arrow-right.svg"
+                              width="10"
+                              height="10"
+                              class="ms-2 arrow"
+                              alt="Sparkout-tech-solution"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <ul class="mega-menu-links-second pr-0">
+                        <h4>Overview</h4>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/about-us']"
+                            >About Us</a
+                          >
+                        </li>
+
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/how-we-work']"
+                            >How we Work</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/development-methodology']"
+                            >Development Methodology</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/career']"
+                            >Career Overview</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <ul class="mega-menu-links-second pl-0">
+                        <h4>Insights</h4>
+
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/blog']">Blog</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Our Work</a
+            >
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about">
+                <div class="container">
+                  <div class="row">
+                    <div
+                      class="col-12 col-sm-6 col-md-6 col-lg-4 bg-blue d-flex flex-column"
+                    >
+                      <div class="our-menu-services">
+                        <div>
+                          <h4>Our Work</h4>
+                          <p>
+                            We closely work with our clients and follow strict
+                            processes to deliver quality experiences.
+                          </p>
+                        </div>
+                        <div class="mb-5" routerLinkActive="active">
+                          <a class="btn about-us" (click)="onClick()"
+                            >Let's Talk
+                            <img
+                              src="assets/images/arrow-right.svg"
+                              width="10"
+                              height="10"
+                              class="ms-2 arrow"
+                              alt="Sparkout Tech Solution Pvt Ltd"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <div class="menu-blog">
+                        <a [routerLink]="['/case-studies']">
+                          <figure>
+                            <img
+                              src="assets/images/blog/casestudy.png"
+                              class="img-fluid"
+                              alt="Case Study"
+                            />
+                          </figure>
+                          <h4>Case Study</h4>
+                          <p>
+                            Explore how Sparkout delivered IT Solutions to
+                            Startups & Enterprises
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 bg-white">
+                      <div class="menu-blog">
+                        <a [routerLink]="['/portfolio']">
+                          <figure>
+                            <img
+                              src="assets/images/blog/portfolio.png"
+                              class="img-fluid"
+                              alt="Portfolio"
+                            />
+                          </figure>
+                          <h4>Portfolio</h4>
+                          <p>
+                            A glimpse to our expertise in design, development &
+                            industry experience.
+                          </p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li
+            class="nav-item"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a class="nav-link" [routerLink]="['/contact-us']">Contact Us</a>
+          </li>
+        </ul>
+        <div class="btn--hover">
+          <a class="btn about-us" role="button" [routerLink]="['/contact-us']"
+            >Let's Talk
+            <span class="move-arow">
+              <img
+                src="assets/images/arrow-right.svg"
+                width="17"
+                height="18"
+                class="ms-2 arrow"
+                alt="Sparkout Tech Solution Pvt Ltd"
+              />
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasRight"
+  aria-labelledby="offcanvasRightLabel"
+>
+  <div class="offcanvas-header">
+    <div id="offcanvasRightLabel">
+      <a
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+        class="navbar-brand"
+        [routerLink]="['/']"
+      >
+        <img
+          src="assets/images/logo/logo.svg"
+          width="200"
+          height="50"
+          alt="Sparkout-tech-solution"
+        />
+      </a>
+    </div>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <nav class="navbar-expand-lg navbar-light bg-white">
+      <ul class="navbar-nav mx-auto">
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Services</a
+          >
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <h4>Our Service Catalog</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/mobile-application-development']"
+                    >Mobile Application
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/web-application-development']"
+                    >Web Development
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/ui-ux-development']"
+                    >UI-UX Design
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/quality-assurance-and-testing-services']"
+                    >QA & Testing
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/devops-services']"
+                    >DevOps Solution
+                  </a>
+                </li>
+                <h4>Trending Technologies</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/blockchain-development-company']"
+                    >Blockchain Development
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/drone-software-development']"
+                    >Drone Development
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/ar-vr-application-development']"
+                    >AR and VR
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/machine-learning-development']"
+                    >Machine Learning
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/internet-of-things']"
+                    >Internet of Things
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Solutions</a
+          >
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <h4>Trending Solutions</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/transgenie']"
+                    >TransGenie - Logistics & Field Management</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/enterprise-software-development']"
+                    >Enterprise Software Solutions</a
+                  >
+                </li>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/ecommerce-application-development']"
+                    >Ecommerce Solution</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/on-demand-application-development']"
+                    >On-Demand Solution</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/online-food-delivery-solution']"
+                    >Food Delivery Solution</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/chat-application-development']"
+                    >Chat Solution</a
+                  >
+                </li>
+                <h4>Industries</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/real-estate-application-development']"
+                    >Real Estate</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/travel-application-development']"
+                    >Travel</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/sports-application-development']"
+                    >Sports</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/social-media-application-development']"
+                    >Social Networking</a
+                  >
+                </li>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="[
+                      '/media-and-entertainment-application-development'
+                    ]"
+                    >Media & Entertainment</a
+                  >
+                </li>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['./healthcare-application-development']"
+                    >Healthcare Solution</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >About Us</a
+          >
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <h4>Overview</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/about-us']"
+                    >About Us</a
+                  >
+                </li>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/how-we-work']"
+                    >How we Work</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/development-methodology']"
+                    >Development Methodology</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/career']"
+                    >Career Overview</a
+                  >
+                </li>
+                <h4>Insights</h4>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/blog']"
+                    >Blog</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Our Work</a
+          >
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/case-studies']"
+                    >Case Study
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/portfolio']"
+                  >
+                    Portfolio
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="nav-item"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            class="nav-link"
+            [routerLink]="['/contact-us']"
+            >Contact Us</a
+          >
+        </li>
+      </ul>
+      <div class="btn--hover">
+        <a
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+          class="btn about-us"
+          role="button"
+          [routerLink]="['/contact-us']"
+          >Let's Talk
+          <span class="move-arow">
+            <img
+              src="assets/images/arrow-right.svg"
+              width="10"
+              height="10"
+              class="ms-2 arrow"
+              alt="Sparkout Tech Solution Pvt Ltd"
+            />
+          </span>
+        </a>
+      </div>
+    </nav>
+  </div>
+</div>

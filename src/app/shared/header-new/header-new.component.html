@@ -1,0 +1,718 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white" id="navbar_top">
+    <div class="container">
+      <a class="navbar-brand me-0" [routerLink]="['/']">
+        <img
+          loading="lazy"
+          data-src="assets/images/logo/logo.svg"
+          width="320"
+          height="73"
+          alt="Sparkout-tech-solution"
+          title="Sparkout Tech Solution"
+          class="img-fluid"
+        />
+        <div class="btr">&nbsp;</div>
+      </a>
+      <div class="btn--hover d-lg-none d-col-block">
+        <a class="btn about-us" role="button" [routerLink]="['/contact-us/']"
+          >Let's Talk</a
+        >
+      </div>
+      <button
+        class="btn btn-primary navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        <span class="">
+          <i class="bi bi-list"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Solutions <i class="bi bi-chevron-down"></i
+            ></a>
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about py-lg-0">
+                <div class="container">
+                  <div class="d-flex justify-content-between menu-title">
+                    <h2>Solutions <i class="bi bi-arrow-right-short"></i></h2>
+                    <div class="close"><i class="bi bi-x-circle"></i></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <h4>Blockchain Solutions</h4>
+                        <li routerLinkActive="active">
+                          <a
+                            href="https://www.blockchainx.tech/nft-marketplace-development/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="nav-link"
+                            >NFT Marketplace
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            href="https://www.blockchainx.tech/metaverse-development-company/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="nav-link"
+                            >Metaverse
+                          </a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/blockchain-development-company/']"
+                            >Enterprise Blockchain Solutions
+                          </a>
+                        </li>
+
+                        <h4>Digital Experience (DX)</h4>
+                        <li routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/ui-ux-development/']"
+                            >Customer Experience - UI/UX
+                          </a>
+                        </li>
+                      </ul>
+
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <h4>Digital Solutions</h4>
+
+                        <li routerLinkActive="active">
+                          <a class="nav-link" href="https://eatzilla.info/" target="_blank"
+                          rel="noopener noreferrer">Eatzilla - Order and Delivery Management</a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a class="nav-link" href="https://www.rentalslew.com/" target="_blank"
+                          rel="noopener noreferrer">Rentalslew - Vacation Rental Management</a>
+                        </li>
+                        <li routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/transgenie/']">TransGenie - SupplyChain Management</a>
+                        </li>
+                        <!-- <li routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/contact-us']">PikChat - AI Chat Messenger</a>
+                        </li> -->
+                      </ul>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <h4>IT Life Cycle</h4>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/artificial-intelligence-application-development-company/']"
+                            >AI/ML Development</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/generative-ai-development/']"
+                            >Generative AI</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/web-application-development/']"
+                            >Modern Web Services</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/mobile-application-development/']"
+                            >Mobile Solutions</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <h4>&nbsp;</h4>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/devops-services/']"
+                            >DevOps Solutions</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/quality-assurance-and-testing-services/'
+                            ]"
+                            >Quality Assurance & Testing</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/ar-vr-application-development/']"
+                            >Spatial Computing - AR / VR / MR</a
+                          >
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/internet-of-things/']"
+                            >Internet of Things (IOT)</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Industries <i class="bi bi-chevron-down"></i
+            ></a>
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about py-lg-0">
+                <div class="container">
+                  <div class="d-flex justify-content-between menu-title">
+                    <h2>Industries <i class="bi bi-arrow-right-short"></i></h2>
+                    <div class="close"><i class="bi bi-x-circle"></i></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/online-food-delivery-solution/']"
+                            >Food & Beverages</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="['/travel-application-development/']"
+                            >Travel</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                            class="nav-link"
+                            [routerLink]="[
+                              '/media-and-entertainment-application-development/'
+                            ]"
+                            >Media & Entertainment</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Insights <i class="bi bi-chevron-down"></i
+            ></a>
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about py-lg-0">
+                <div class="container">
+                  <div class="d-flex justify-content-between menu-title">
+                    <h2>Insights <i class="bi bi-arrow-right-short"></i></h2>
+                    <div class="close"><i class="bi bi-x-circle"></i></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/blog/']">Blog</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/case-studies/']"
+                            >Case Study</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li
+            class="nav-item dropdown dropdown-mega position-static"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link font--semibold text--md dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Company <i class="bi bi-chevron-down"></i
+            ></a>
+            <div class="dropdown-menu">
+              <div class="mega-content mega-content__about py-lg-0">
+                <div class="container">
+                  <div class="d-flex justify-content-between menu-title">
+                    <h2>Company <i class="bi bi-arrow-right-short"></i></h2>
+                    <div class="close"><i class="bi bi-x-circle"></i></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/about-us/']"
+                            >About Us
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/career/']"
+                            >Career</a
+                          >
+                        </li>
+                      </ul>
+                    </div> -->
+                    <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                      <ul class="mega-menu-links">
+                        <li class="nav-item" routerLinkActive="active">
+                          <a class="nav-link" [routerLink]="['/portfolio/']"
+                            >Clients</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="btn--hover">
+          <div class="btr">&nbsp;</div>
+          <a class="btn about-us" role="button" [routerLink]="['/contact-us/']"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasRight"
+  aria-labelledby="offcanvasRightLabel"
+>
+  <div class="offcanvas-header">
+    <div id="offcanvasRightLabel">
+      <a
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+        class="navbar-brand"
+        [routerLink]="['/']"
+      >
+        <img
+          loading="lazy"
+          data-src="assets/images/logo/logo.svg"
+          width="200"
+          height="50"
+          alt="Sparkout-tech-solution"
+          title="Sparkout Tech Solution"
+          class="img-fluid"
+        />
+      </a>
+    </div>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <nav class="navbar-expand-lg navbar-light bg-white">
+      <ul class="navbar-nav mx-auto">
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Solutions <i class="bi bi-chevron-down"></i
+          ></a>
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <h4>Blockchain Solutions</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    href="https://www.blockchainx.tech/nft-marketplace-development/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >NFT Marketplace
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    href="https://www.blockchainx.tech/metaverse-development-company/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Metaverse</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/blockchain-development-company/']"
+                    >Enterprise Blockchain Solutions
+                  </a>
+                </li>
+
+                <h4>Digital Experience (DX)</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/ui-ux-development/']"
+                    >Customer Experience - UI/UX
+                  </a>
+                </li>
+
+                <h4>Digital Solutions</h4>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight"
+                          aria-controls="offcanvasRight"
+                          class="nav-link" href="https://eatzilla.info/" target="_blank"
+                          rel="noopener noreferrer">Eatzilla - Order and Delivery Management</a>
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight"
+                          aria-controls="offcanvasRight"
+                          class="nav-link" href="https://www.rentalslew.com/" target="_blank"
+                          rel="noopener noreferrer">Rentalslew - Vacation Rental Management</a>
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                          <a
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight"
+                          aria-controls="offcanvasRight"
+                          class="nav-link" [routerLink]="['/transgenie/']">TransGenie - SupplyChain Management</a>
+                        </li>
+                        <!-- <li class="nav-item" routerLinkActive="active">
+                          <a
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasRight"
+                          aria-controls="offcanvasRight"
+                          class="nav-link" [routerLink]="['/contact-us']">PikChat - AI Chat Messenger</a>
+                        </li> -->
+
+                <h4>IT Life Cycle</h4>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/artificial-intelligence-application-development-company/']"
+                  >
+                    AI/ML Development
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/generative-ai-development/']"
+                  >
+                    Generative AI
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/web-application-development/']"
+                  >
+                    Modern Web Services
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/mobile-application-development/']"
+                  >
+                    Mobile Solutions
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/devops-services/']"
+                    >DevOps Solutions
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/quality-assurance-and-testing-services/']"
+                  >
+                    Quality Assurance & Testing
+                  </a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/ar-vr-application-development/']"
+                  >
+                    Spatial Computing - AR / VR / MR
+                  </a>
+                </li>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/internet-of-things/']"
+                  >
+                    Internet of Things (IOT)
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Industries <i class="bi bi-chevron-down"></i
+          ></a>
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/online-food-delivery-solution/']"
+                  >
+                    Food & Beverages</a
+                  >
+                </li>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/travel-application-development/']"
+                  >
+                    Travel</a
+                  >
+                </li>
+
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="[
+                      '/media-and-entertainment-application-development/'
+                    ]"
+                  >
+                    Media & Entertainment</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Insights <i class="bi bi-chevron-down"></i
+          ></a>
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/blog/']"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/case-studies/']"
+                    >Case Study</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li
+          class="nav-item dropdown dropdown-mega position-static"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a
+            class="nav-link font--semibold text--md dropdown-toggle"
+            data-bs-toggle="dropdown"
+            >Company <i class="bi bi-chevron-down"></i
+          ></a>
+          <div class="dropdown-menu">
+            <div class="mega-content mega-content__about py-lg-0">
+              <ul class="mega-menu-links">
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/about-us/']"
+                    >About Us</a
+                  >
+                </li>
+                <!-- <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/career/']"
+                    >Career</a
+                  >
+                </li> -->
+                <li class="nav-item" routerLinkActive="active">
+                  <a
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"
+                    class="nav-link"
+                    [routerLink]="['/portfolio/']"
+                    >Clients</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="btn--hover">
+        <a
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+          class="btn about-us"
+          role="button"
+          [routerLink]="['/contact-us/']"
+          >Let's Talk
+        </a>
+      </div>
+    </nav>
+  </div>
+</div>

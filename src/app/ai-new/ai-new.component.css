@@ -1,0 +1,32 @@
+.what-we-do-app {
+  padding: 30px;
+  background: #ffffff;
+  height: 100%;
+}
+
+.solutions-card {
+  min-height: 650px;
+}
+
+@media screen and (max-width: 991px) {
+  .solutions-card {
+    min-height: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .technology-stacks .tech-list a,
+  .faq-section .accordion-button,
+  .vertical-tabs .accordion-button {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .solutions-card {
+    min-height: unset;
+  }
+}
+
+
+

@@ -1,0 +1,11 @@
+identifier: laf0tcmc09v134yd
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: spark
+homeFolder: D:\Work\new-design-sparkout\sparkoutech-new
+distFolder: dist/spark
+outDir: D:\Work\new-design-sparkout\sparkoutech-new\dist\static\
+handle404: ''
+allowErrorCollect: true

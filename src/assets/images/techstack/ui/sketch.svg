@@ -1,0 +1,22 @@
+<svg id="Page-1" xmlns="http://www.w3.org/2000/svg" width="110.975" height="100.425" viewBox="0 0 110.975 100.425">
+    <defs>
+        <style>
+            .cls-2{fill:#ea6c00}.cls-3{fill:#fdad00}.cls-4{fill:#fdd231}
+        </style>
+    </defs>
+    <g id="sketch-symbol">
+        <path id="Path" d="M24.213 3.306 55.488 0l31.274 3.306 24.213 32.5-55.487 64.619L0 35.81z" style="fill:#fdb300"/>
+        <g id="Group" transform="translate(0 35.81)">
+            <path id="Path-2" data-name="Path" class="cls-2" d="m22.475 0 33.013 64.615L0 0z"/>
+            <path id="Path-3" data-name="Path" class="cls-2" d="M22.475 64.615 55.488 0 0 64.615z" transform="rotate(180 55.487 32.307)"/>
+            <path id="Path-4" data-name="Path" class="cls-3" d="M79.634 0h66.025l-33.013 64.615z" transform="translate(-57.159)"/>
+        </g>
+        <g id="Group-2" data-name="Group">
+            <path id="Path-5" data-name="Path" class="cls-4" d="M112.646 0 81.371 3.306l-1.737 32.5z" transform="translate(-57.159)"/>
+            <path id="Path-6" data-name="Path" class="cls-4" d="M33.012 35.81 1.737 32.5 0 0z" transform="rotate(180 44.25 17.905)"/>
+            <path id="Path-7" data-name="Path" class="cls-3" d="m0 0 24.213 32.5L22.475 0z" transform="rotate(180 55.487 17.905)"/>
+            <path id="Path-8" data-name="Path" class="cls-3" d="m0 44.219 24.213-32.5-1.737 32.5z" transform="translate(0 -8.409)"/>
+            <path id="Path-9" data-name="Path" d="M112.646 0 79.634 35.81h66.025z" transform="translate(-57.159)" style="fill:#feeeb7"/>
+        </g>
+    </g>
+</svg>

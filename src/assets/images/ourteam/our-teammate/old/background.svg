@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="245.16" height="222.312" viewBox="0 0 245.16 222.312">
+    <defs>
+        <linearGradient id="t3fylvv3qa" x1=".5" y1=".439" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-opacity="0"/>
+            <stop offset="1"/>
+        </linearGradient>
+    </defs>
+    <rect width="245.16" height="222.312" rx="15" style="opacity:.49;fill:url(#t3fylvv3qa)"/>
+</svg>

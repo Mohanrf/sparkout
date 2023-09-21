@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.999" height="56.999" viewBox="0 0 56.999 56.999">
+    <g transform="translate(-7.723 -7.718)">
+        <circle data-name="Ellipse 1055" cx="23.831" cy="23.831" r="23.831" transform="translate(12.395 12.393)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px"/>
+        <circle data-name="Ellipse 1056" cx="16.402" cy="16.402" r="16.402" transform="translate(19.824 19.822)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px"/>
+        <circle data-name="Ellipse 1057" cx="8.095" cy="8.095" r="8.095" transform="translate(28.131 28.129)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px"/>
+        <path data-name="Line 243" transform="translate(8.723 36.132)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M3.339 0H0"/>
+        <path data-name="Line 244" transform="translate(60.383 36.132)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M3.339 0H0"/>
+        <path data-name="Line 245" transform="translate(36.223 8.718)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M0 0v3.339"/>
+        <path data-name="Line 246" transform="translate(36.223 60.378)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M0 0v3.339"/>
+        <path data-name="Line 247" transform="translate(36.223 41.778)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M0 0v5.093"/>
+        <path data-name="Line 248" transform="translate(36.223 25.532)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M0 0v5.093"/>
+        <path data-name="Line 249" transform="translate(25.539 36.244)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M5.093 0H0"/>
+        <path data-name="Line 250" transform="translate(41.814 36.244)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px" d="M5.093 0H0"/>
+        <circle data-name="Ellipse 1058" cx=".957" cy=".957" r=".957" transform="translate(35.277 35.275)" style="fill:none;stroke:#ff6c1a;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px"/>
+    </g>
+</svg>

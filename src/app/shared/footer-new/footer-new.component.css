@@ -1,0 +1,223 @@
+.footer{
+  background: #F9FAFB;
+  padding: 53px 0px 0;
+}
+.footer-logo{
+  width:260px;
+  margin-bottom:30px;
+}
+.footer-heading h3{
+  color: var(--primarycolor)!important;
+  font-size: 20px!important;
+  font-weight: 600!important;
+  line-height: 150%!important;
+  padding-bottom:6px!important;
+  margin-bottom:0!important;
+}
+.footer-heading p{
+  color: var(--secondrytextcolor)!important;
+  font-size: 16px!important;
+  line-height: 168%!important;
+  font-weight:400!important;
+  margin-bottom:0!important;
+  padding-bottom:42px!important;
+}
+
+
+.lines-white hr{
+  border-top: 0px solid #E6E8EA;
+  position: relative;
+  height: 2px;
+  opacity: 1;
+  background: #E6E8EA;
+  margin:0;
+  margin-bottom:45px;
+}
+.lines-white hr:before, .lines-white hr:after{
+  width:35px;
+  height:2px;
+  background: #FF6C1A;
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+}
+.lines-white hr:after{
+  width:6px;
+  background: #FFF;
+  left:35px;
+}
+
+.footer-heading ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-heading ul li a{
+  color: var(--secondrytextcolor)!important;
+  font-size: 16px!important;
+  line-height: 168%!important;
+  font-weight:400!important;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  margin: 0!important;
+  padding-bottom: 12px;
+  display: block;
+}
+.footer-heading ul li a:hover{
+  color: var(--primarycolor)!important;
+}
+.footer-bottom{
+  background:#F3F4F6;
+  padding:23px 0 13px;
+  margin-top:33px;
+}
+.footer-bottom p{
+  color: var(--secondrytextcolor)!important;
+  font-size: 16px!important;
+  line-height: 168%!important;
+  font-weight:400!important;
+  margin: 0;
+  padding-bottom: 12px;
+}
+.copyrights a{
+  color: var(--secondrytextcolor)!important;
+  font-size: 16px!important;
+  line-height: 168%!important;
+  font-weight:400!important;
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+.social-icons ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32px;
+  padding-bottom: 13px;
+}
+.social-icons ul li a{
+  margin:0;
+}
+.social-icons ul li a img{
+  width:24px;
+  height:24px;
+}
+.protected-screen img{
+  width: 175px;
+  margin-bottom:13px!important;
+}
+.footer-bottom .lines-white hr {
+  margin-bottom: 13px;
+}
+
+.scroller{
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  font-size:20px;
+  border: 1px solid #ff6c1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color:#192a44;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: .3s all ease-in-out;
+  border-radius: 0;
+}
+.scroller:hover{
+  background: #ff6c1a;
+  color: #fff;
+  transition: .3s all ease-in-out;
+}
+
+@media(max-width:1199px){
+.footer-heading p, .copyrights a, .footer-bottom p{
+   font-size: 14px!important;
+}
+.footer-heading ul li a {
+  font-size: 15px!important;
+}
+.footer-heading h3 {
+  font-size: 18px!important;
+}
+.social-icons ul {
+  grid-gap: 24px;
+  gap: 24px;
+}
+.social-icons ul li a img {
+  width: 20px;
+  height: 20px;
+}
+.protected-screen img {
+  width: 140px;
+}
+.footer-logo {
+  width: 210px!important;
+}
+}
+@media(max-width:991px){
+.footer-logo{
+  width: 180px!important;
+}
+.footer-heading p .span-block {
+  display: inline;
+}
+}
+@media(max-width:767px){
+.social-icons, .protected-screen{
+  justify-content:flex-start!important;
+}
+.social-icons ul {
+  grid-gap: 24px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+.footer-heading ul li a {
+  font-size: 14px!important;
+  padding-bottom: 7px;
+}
+.footer-bottom {
+  padding: 20px 0 0px;
+  margin-top: 25px;
+}
+.footer-heading p {
+  padding-bottom:20px!important;
+}
+.footer{
+  padding:30px 0px 0;
+}
+}
+@media(max-width:480px){
+.footer-heading ul{
+  margin-bottom:15px;
+}
+.footer-heading .empty{
+  display:none;
+}
+.no-heading-pb-0 ul{
+  margin-bottom:15px;
+}
+.scroller {
+  bottom: 20px;
+}
+.footer-logo{
+  margin-bottom:20px;
+}
+}
+
+
+
+@media(max-width:420px){
+.row-cols-2>* {
+  flex: 0 0 auto;
+  width: 100%;
+}
+}

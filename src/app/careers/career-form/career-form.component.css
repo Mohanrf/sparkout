@@ -1,0 +1,9 @@
+
+input[type="file"]{
+    border:1px solid #ddd;
+}
+#floatingUpload{
+    border:1px solid #ddd !important;
+    opacity: 1;
+    padding: 0.94rem 1.3rem;
+}

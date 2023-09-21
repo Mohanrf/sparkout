@@ -1,0 +1,186 @@
+<section class="achievements-section text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="title-wrap d-flex flex-column align-items-center">
+          <h4 class="d-flex justify-content-center">
+            <span class="dots"></span> Our Achievements
+          </h4>
+          <h2>
+            <span>Taking innovation</span> beyond borders to the hands <br />
+            of happy customers globally <span class="dots"></span>
+          </h2>
+          <a [routerLink]="['/contact-us']" class="btn btn-primary"
+            >Talk to our team
+            <picture>
+              <source
+                type="image/webp"
+                srcset="assets/images/home-new/icon-arrow-up.webp"
+              />
+              <source
+                type="image/png"
+                srcset="assets/images/home-new/icon-arrow-up.png"
+              />
+              <img
+                loading="lazy"
+                data-src="assets/images/home-new/icon-arrow-up.svg"
+                alt="arrow-icon"
+                title="arrow-icon"
+                width="21"
+                height="21"
+                class="img-fluid"
+              />
+            </picture>
+          </a>
+        </div>
+        <owl-carousel-o [options]="achievementsOptions">
+          <ng-template carouselSlide>
+            <div class="achievement">
+              <div class="achievement-logo">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/award/clutch.webp"
+                  />
+
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/award/clutch.png"
+                  />
+
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/award/clutch.png"
+                    alt="clutch"
+                    class="img-fluid"
+                    title="clutch"
+                    width="120"
+                    height="120"
+                  />
+                </picture>
+              </div>
+              <h4>Clutch</h4>
+              <p>Top 1000 Companies <br />Global 2020</p>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="achievement">
+              <div class="achievement-logo">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/award/futura.webp"
+                  />
+
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/award/futura.png"
+                  />
+
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/award/futura.png"
+                    alt="futura"
+                    class="img-fluid"
+                    title="futura"
+                    width="120"
+                    height="120"
+                  />
+                </picture>
+              </div>
+              <h4>App Futura</h4>
+              <p>Top Custom Software <br />Development Company</p>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="achievement">
+              <div class="achievement-logo">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/award/wadline.webp"
+                  />
+
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/award/wadline.png"
+                  />
+
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/award/wadline.png"
+                    alt="BX Finance"
+                    class="img-fluid"
+                    title="BX Finance"
+                    width="120"
+                    height="120"
+                  />
+                </picture>
+              </div>
+              <h4>Wadline</h4>
+              <p>Top Web Developers <br />2020</p>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="achievement">
+              <div class="achievement-logo">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/award/clutch2.webp"
+                  />
+
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/award/clutch2.png"
+                  />
+
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/award/clutch2.png"
+                    alt="cyphershieldClutch"
+                    class="img-fluid"
+                    title="cyphershieldClutch"
+                    width="120"
+                    height="120"
+                  />
+                </picture>
+              </div>
+              <h4>Clutch</h4>
+              <p>Top B2B Companies <br />United States 2019</p>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="achievement">
+              <div class="achievement-logo">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="assets/images/home-new/award/goodfirms.webp"
+                  />
+
+                  <source
+                    type="image/png"
+                    srcset="assets/images/home-new/award/goodfirms.png"
+                  />
+
+                  <img
+                    loading="lazy"
+                    data-src="assets/images/award/goodfirms.png"
+                    alt="Goodfirms"
+                    class="img-fluid"
+                    title="Goodfirms"
+                    width="120"
+                    height="120"
+                  />
+                </picture>
+              </div>
+              <h4>Goodfirms</h4>
+              <p>Top Software <br />Development Company</p>
+            </div>
+          </ng-template>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>

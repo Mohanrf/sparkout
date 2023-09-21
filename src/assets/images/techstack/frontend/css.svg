@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71.555" height="101" viewBox="0 0 71.555 101">
+    <defs>
+        <style>
+            .cls-3{fill:#ebebeb}
+        </style>
+    </defs>
+    <g id="layer1" transform="translate(-193.633 -276.362)">
+        <g id="g3013" transform="translate(193.633 276.362)">
+            <path id="polygon2989" d="m146.188 100.62-6.519 73.028-29.3 8.124-29.222-8.112-6.514-73.04z" transform="translate(-74.633 -80.771)" style="fill:#264de4"/>
+            <path id="polygon2991" d="m279.678 193.3 5.571-62.405H256v68.97z" transform="translate(-220.222 -105.073)" style="fill:#2965f1"/>
+            <path id="polygon2993" class="cls-3" d="m150.31 268.217.8 8.958h20.046v-8.958z" transform="translate(-135.382 -215.307)"/>
+            <path id="polygon2995" class="cls-3" d="M164.594 176.3h-22.462l.814 8.958h21.648z" transform="translate(-128.817 -141.526)"/>
+            <path id="polygon2997" class="cls-3" d="M176.055 355.481v-9.32l-.039.01-9.977-2.694-.638-7.144h-8.992l1.255 14.065 18.35 5.094z" transform="translate(-140.277 -269.986)"/>
+            <path id="path2999" d="M160 0h10.85v4.537h-6.313v4.537h6.313v4.537H160z" transform="translate(-143.16)"/>
+            <path id="path3001" d="M226 0h10.85v3.945h-6.312v.789h6.313v9.074H226V9.666h6.313v-.789H226z" transform="translate(-196.14)"/>
+            <path id="path3003" d="M292 0h10.85v3.945h-6.312v.789h6.313v9.074H292V9.666h6.313v-.789H292z" transform="translate(-249.121)"/>
+            <path id="polygon3005" d="m266.874 203.394-1.04 11.618-9.991 2.7v9.32l18.364-5.09.135-1.513 2.105-23.583.219-2.405 1.617-18.131h-22.44v8.958h12.623l-.815 9.173h-11.808v8.958z" transform="translate(-220.096 -141.526)" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>

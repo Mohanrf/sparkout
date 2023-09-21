@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132">
+    <g data-name="Group 415" transform="translate(-334.995 -10930.995)">
+        <g data-name="Ellipse 479" transform="translate(334.995 10930.995)" style="stroke:#192a44;stroke-width:2px;stroke-dasharray:7;fill:none">
+            <circle cx="66" cy="66" r="66" style="stroke:none"/>
+            <circle cx="66" cy="66" r="65" style="fill:none"/>
+        </g>
+        <circle data-name="Ellipse 480" cx="47" cy="47" r="47" transform="translate(353.995 10949.995)" style="fill:#192a44"/>
+        <path data-name="Icon awesome-play" d="M30.3 15.327 5.169.471A3.408 3.408 0 0 0 0 3.419v29.7a3.424 3.424 0 0 0 5.169 2.948L30.3 21.224a3.423 3.423 0 0 0 0-5.9z" transform="translate(386.781 10978.718)" style="fill:#fff"/>
+    </g>
+</svg>

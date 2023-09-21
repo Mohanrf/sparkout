@@ -1,0 +1,209 @@
+.carous-picture {
+  text-align: left;
+}
+
+.carous-picture img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 65px;
+  height: 65px;
+}
+
+.why-table table {
+  width: 100%;
+}
+
+.why-table tr,
+td {
+  padding: 15px !important;
+  border: 1px solid #ff6a1a3f;
+}
+
+.why-table tr:first-child {
+  border-radius: 20px;
+}
+
+.bi-check-circle::before,
+.bi-exclamation-circle::before {
+  font-size: 20px;
+  color: #ff6c1a;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.detail p {
+  font-size: 14px;
+}
+.detail h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.document-download button {
+  border: unset;
+  outline: 0;
+
+  background: #ff6c1a;
+  color: #f3f6f9;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px;
+}
+.accordion-item:not(:first-of-type) {
+  border: 1px solid #ff6a1a59;
+}
+.accordion-item {
+  border: 1px solid #ff6a1a59;
+}
+#essentialqa {
+  padding: 20px;
+  background: #f3f6f9;
+  min-height: 375px;
+}
+
+.tech-stack-details {
+  padding: 20px 10px 10px 10px;
+  /* background: #f3f6f9; */
+}
+.bottom-contact {
+  text-align: center;
+}
+
+.technology-card p {
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: unset;
+}
+.bottom-cont-list {
+  background: #f3f6f9;
+}
+.bottom-contact {
+  margin-top: 30px;
+}
+.technology-alt-card {
+  position: relative;
+  transition: 0.5s all ease-in-out;
+}
+
+.technology-alt-card > .industries-card > .content > p {
+  transition: 0.5s all ease-in-out;
+}
+
+.technology-alt-card:hover > .industries-card > .content > p {
+  color: #ffffff;
+}
+
+.technology-alt-card:hover > .industries-card > .content > h3 {
+  padding-top: 25px;
+}
+
+.technology-alt-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  transition: height 0.5s ease-out;
+}
+.technology-alt-card:hover:before {
+  height: 100%;
+}
+.technology-alt-card:hover figure img {
+  transform: scale(1.2);
+}
+.industries-card .content {
+  z-index: 11;
+}
+#essentialqa h3 {
+  padding-bottom: 15px;
+}
+.what-we-do-app:hover,
+.what-we-do-app:focus {
+  box-shadow: unset;
+}
+.contact-cta a {
+  width: 175px !important;
+  padding: 10px 30px !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  line-height: 168% !important;
+  border-radius: 0 !important;
+  background: #ff6c1a !important;
+  text-decoration: none !important;
+  border: 1px solid #ff6c1a !important;
+  font-weight: 500 !important;
+  transition: 0.3s ease-in-out !important;
+  display: inline-block !important;
+  /* width: auto!important; */
+  /* padding: 14px 50px!important; */
+}
+.contact-cta a:hover {
+  outline: 1px solid #fff !important;
+  outline-offset: -6px !important;
+
+  transition: 0.3s ease-in-out !important;
+}
+
+a.btn.btn-primary {
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a.btn.btn-primary:hover:before {
+  width: 47px;
+  height: 47px;
+  content: "";
+  border-radius: 100%;
+  background: #192a4433;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.spark-cta a {
+  padding: 15px 30px 15px 30px;
+  width: 180px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.spark-cta a:hover {
+  padding-left: unset;
+}
+
+.spark-cta:hover a .arrow i span {
+  left: -8px;
+}
+.spark-cta a .arrow i span {
+  top: -7px;
+}
+.spark-cta a .arrow,
+.spark-cta a .arrow svg {
+  width: 20px;
+  height: 30px;
+}
+.spark-cta:hover a .arrow i {
+  left: 20px;
+}
+
+.what-we-do .techstack h2,
+.business-growth .what-we-do-app h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.business-growth .what-we-do-app p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* #qafaq .accordion-button {
+  font-size: 22px;
+} */
+
+@media only screen and (max-width: 767px) {
+  #essentialqa {
+    min-height: unset;
+  }
+}

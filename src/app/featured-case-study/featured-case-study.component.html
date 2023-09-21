@@ -1,0 +1,393 @@
+<section class="featured-case-study py-100 bg-white-bottom-400">
+  <div class="container">
+    <div class="row mb-4 d-flex align-items-center">
+      <div class="col-lg-8 col-md-8">
+        <div class="title-wrap">
+          <h4>Featured Case Study</h4>
+          <h1>We love transforming product <br />ideas to digital realities</h1>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 d-none d-md-block">
+        <div class="text-right">
+          <div class="spark-cta">
+            <a [routerLink]="['/case-studies']" class="about-us">
+              <span class="text">
+                Explore More
+                <span class="arrow">
+                  <i><span>→</span></i>
+                  <svg
+                    class="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                  >
+                    <g
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                    >
+                      <circle
+                        class="arrow-icon--circle"
+                        cx="16"
+                        cy="16"
+                        r="15.12"
+                      ></circle>
+                    </g>
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="bg-blue our-industry-full">
+          <owl-carousel-o [options]="featuredCaseStudyOptions">
+            <ng-template carouselSlide>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 text-center">
+                  <figure class="desktop-img">
+                    <img
+                      src="assets/images/our-industry/our-park.png"
+                      class="img-fluid mb-3"
+                      alt="Holiday Keepers"
+                    />
+                  </figure>
+                  <figure class="mobile-img">
+                    <img
+                      src="assets/images/our-industry/our-park-mobile.jpg"
+                      class="img-fluid mb-3"
+                      alt="Holiday Keepers"
+                    />
+                  </figure>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="full-wrap">
+                    <div class="our-industry-wrap">
+                      <h4>Parkk</h4>
+                      <h2>
+                        Parkk Helps people find great places to park, easily.
+                      </h2>
+                      <p>
+                        Finding a place to park in the hustle and bustle of the
+                        urban jungle can be a really tough job. Now imagine if
+                        you could do that on your phone.
+                      </p>
+                    </div>
+                    <div class="our-industry-countdown">
+                      <div>
+                        <p>Country</p>
+                        <h4>USA</h4>
+                      </div>
+                      <div>
+                        <p>Business</p>
+                        <h4>Travel</h4>
+                      </div>
+                      <div>
+                        <p>Team Size</p>
+                        <h4>15</h4>
+                      </div>
+                    </div>
+                    <div class="my-3 btn-right-side">
+                      <a
+                        class="our-industry-btn"
+                        [routerLink]="['/parking-app-case-study']"
+                        >View Case Study
+                        <img
+                          src="assets/images/arrow-right.svg"
+                          alt="next icon"
+                          class="ml-3"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 text-center">
+                  <figure class="desktop-img">
+                    <img
+                      src="assets/images/case-study-holiday-keepers/holiday-keeper-home.jpg"
+                      class="img-fluid mb-3"
+                      alt="Holiday Keepers"
+                    />
+                  </figure>
+                  <figure class="mobile-img">
+                    <img
+                      src="assets/images/case-study-holiday-keepers/holiday-keeper-home-mobile.jpg"
+                      class="img-fluid mb-3"
+                      alt="Holiday Keepers"
+                    />
+                  </figure>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="full-wrap">
+                    <div class="our-industry-wrap">
+                      <h4>Holiday Keepers</h4>
+                      <h2>Access great rental properties for your vacay</h2>
+                      <p>
+                        Keepers helps you keep your mind on your dream vacation,
+                        while the app does the rest. Find vacation rentals you'd
+                        want to experience.
+                      </p>
+                    </div>
+                    <div class="our-industry-countdown">
+                      <div>
+                        <p>Country</p>
+                        <h4>USA</h4>
+                      </div>
+                      <div>
+                        <p>Business</p>
+                        <h4>Vacation Homes</h4>
+                      </div>
+                      <div>
+                        <p>Team Size</p>
+                        <h4>13</h4>
+                      </div>
+                    </div>
+                    <div class="my-3 btn-right-side">
+                      <a
+                        class="our-industry-btn"
+                        [routerLink]="[
+                          '/vacation-rental-platform-case-study-holiday-keepers'
+                        ]"
+                        >View Case Study
+                        <img
+                          src="assets/images/arrow-right.svg"
+                          alt="next icon"
+                          class="ml-3"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 text-center">
+                  <figure class="desktop-img">
+                    <img
+                      src="assets/images/case-study-notifynow/case-study-notifynow-banner.jpg"
+                      class="img-fluid mb-3"
+                      alt="notifynow"
+                      height="530"
+                    />
+                  </figure>
+                  <figure class="mobile-img">
+                    <img
+                      src="assets/images/case-study-notifynow/mobile-case-study-notifynow-banner.jpg"
+                      class="img-fluid mb-3"
+                      alt="notifynow"
+                    />
+                  </figure>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="full-wrap">
+                    <div class="our-industry-wrap">
+                      <h4>Notifynow</h4>
+                      <h2>
+                        Notify creditors of decedents and manage their estate
+                      </h2>
+                      <p>
+                        Inform creditors of a person's passing and manage their
+                        estate. A complete decedent notification software that's
+                        now SOC2 certified.
+                      </p>
+                    </div>
+                    <div class="our-industry-countdown">
+                      <div>
+                        <p>Country</p>
+                        <h4>USA, UK</h4>
+                      </div>
+                      <div>
+                        <p>Business</p>
+                        <h4>Travel</h4>
+                      </div>
+                      <div>
+                        <p>Team Size</p>
+                        <h4>11</h4>
+                      </div>
+                    </div>
+                    <div class="my-3 btn-right-side">
+                      <a
+                        class="our-industry-btn"
+                        [routerLink]="[
+                          '/death-record-management-case-study-notifynow'
+                        ]"
+                        >View Case Study
+                        <img
+                          src="assets/images/arrow-right.svg"
+                          alt="next icon"
+                          class="ml-3"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 text-center">
+                  <figure class="desktop-img">
+                    <img
+                      src="assets/images//case-studies/adc/adc-banner.jpg"
+                      class="img-fluid mb-3"
+                      alt="ADC"
+                      height="530"
+                    />
+                  </figure>
+                  <figure class="mobile-img">
+                    <img
+                      src="assets/images/case-studies/adc/mobile-adc-banner.jpg"
+                      class="img-fluid mb-3"
+                      alt="ADC"
+                    />
+                  </figure>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="full-wrap">
+                    <div class="our-industry-wrap">
+                      <h4>ADC</h4>
+                      <h2>Access public death records in minutes with ADC</h2>
+                      <p>
+                        Decedent Check, formerly Australian Death Check, allows
+                        creditors to check public death records and manage a
+                        person's estate easily.
+                      </p>
+                    </div>
+                    <div class="our-industry-countdown">
+                      <div>
+                        <p>Country</p>
+                        <h4>Australia</h4>
+                      </div>
+                      <div>
+                        <p>Business</p>
+                        <h4>Finance</h4>
+                      </div>
+                      <div>
+                        <p>Team Size</p>
+                        <h4>11</h4>
+                      </div>
+                    </div>
+                    <div class="my-3 btn-right-side">
+                      <a
+                        class="our-industry-btn"
+                        [routerLink]="['/decedent-check-case-study-adc']"
+                        >View Case Study
+                        <img
+                          src="assets/images/arrow-right.svg"
+                          alt="next icon"
+                          class="ml-3"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 text-center">
+                  <figure class="desktop-img">
+                    <img
+                      src="assets/images/case-studies/firstblastit/firstblastit-banner.jpg"
+                      class="img-fluid mb-3"
+                      alt="firstblastit"
+                      height="530"
+                    />
+                  </figure>
+                  <figure class="mobile-img">
+                    <img
+                      src="assets/images/case-studies/firstblastit/firstblastit-banner-mobile.jpg"
+                      class="img-fluid mb-3"
+                      alt="firstblastit"
+                    />
+                  </figure>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="full-wrap">
+                    <div class="our-industry-wrap">
+                      <h4>FirstBlastIt</h4>
+                      <h2>
+                        Professional Podcasting, Everything Contemporary On Tech
+                      </h2>
+                      <p>
+                        Over the years communication has transferred into a
+                        totally upscaled version, and so did open communication
+                        with mass.
+                      </p>
+                    </div>
+                    <div class="our-industry-countdown">
+                      <div>
+                        <p>Country</p>
+                        <h4>USA</h4>
+                      </div>
+                      <div>
+                        <p>Business</p>
+                        <h4>Podcast</h4>
+                      </div>
+                      <div>
+                        <p>Team Size</p>
+                        <h4>11</h4>
+                      </div>
+                    </div>
+                    <div class="my-3 btn-right-side">
+                      <a
+                        class="our-industry-btn"
+                        [routerLink]="['/firstblastit-case-study']"
+                        >View Case Study
+                        <img
+                          src="assets/images/arrow-right.svg"
+                          alt="next icon"
+                          class="ml-3"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </owl-carousel-o>
+        </div>
+        <div class="text-center d-block d-md-none">
+          <div class="spark-cta">
+            <a [routerLink]="['/case-studies']" class="about-us">
+              <span class="text">
+                Explore More
+                <span class="arrow">
+                  <i><span>→</span></i>
+                  <svg
+                    class="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                  >
+                    <g
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                    >
+                      <circle
+                        class="arrow-icon--circle"
+                        cx="16"
+                        cy="16"
+                        r="15.12"
+                      ></circle>
+                    </g>
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

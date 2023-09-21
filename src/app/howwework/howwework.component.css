@@ -1,0 +1,341 @@
+.how-wework{
+    padding: 50px 0px;
+}
+.story-details h3,.communications-wrap h3, .contact-comm h3{
+    font-size: 34px;
+    line-height:55px;
+    color:#252b33;
+    font-weight:400;
+    padding:0;
+    margin:0;
+}
+.contact-comm h3{
+    margin:0 0 5px;
+    text-align: left;
+}
+.communications-wrap{
+    text-align: center;
+    padding: 0 0 30px;
+}
+.story-details h4,.requitement-analysis h4,.communications-wrap h4{
+    font-size: 46px;
+    line-height:60px;
+    color:#192a44;
+    font-weight:600;
+    padding:0;
+    margin:0 0 0;
+}
+.story-details p{
+    font-size: 26px;
+    line-height:50px;
+    color:#767676;
+    font-weight:400;
+    padding:0;
+    margin:0;
+}
+.contact-comm p{
+    font-size: 20px;
+    line-height:30px;
+    color:#767676;
+    font-weight:400;
+    padding:0;
+    margin:0;
+}
+.requirements,.hiring,.initate,.delivery{
+    padding: 75px 0px;
+    position: relative;
+}
+.hiring::before, .delivery::before{
+    position: absolute;
+    content: '';
+    background: url(../../assets/images/howwework/after-img.svg) no-repeat;
+    width: 50%;
+    height: 100%;
+    top: -15%;
+    background-size: contain;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.initate::before{
+    position: absolute;
+    content: '';
+    background: url(../../assets/images/howwework/before-img.svg) no-repeat;
+    width: 50%;
+    height: 100%;
+    top: -15%;
+    background-size: contain;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.requitement-analysis h3{
+    font-size: 34px;
+    line-height:55px;
+    color:#ff6c1a;
+    font-weight:500;
+    padding:0;
+    margin:0;
+}
+.story-details-img-wrap img{
+    border-radius: 20px;
+}
+.analysi-disp p{    
+    font-size: 24px;
+    line-height:40px;
+    color:#767676;
+    font-weight:500;
+    padding:0;
+    margin:0 0 15px;
+}
+.analysi-disp h4{    
+    font-size: 34px;
+    line-height:48px;
+    color:#252b33;
+    font-weight:600;
+    padding:0;
+    margin:0 0 15px;
+}
+.analysi-disp{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.communication{
+    background:#f3f6f9;
+    padding: 100px 0px;
+}
+.contact-comm{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+.contact-comm img{
+    width:auto !important;
+    margin:0 0 15px;
+}
+.req-img-wrap img{
+    margin:0 auto;
+    text-align: center;
+}
+@media(max-width:1600px){
+    .story-details h3{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .story-details h4{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .requitement-analysis h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .story-details h4, .requitement-analysis h4, .communications-wrap h4 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .analysi-disp h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .story-details p ,.analysi-disp p{
+        font-size: 24px;
+        line-height: 36px
+    }
+}
+@media(max-width:1440px){
+    .story-details p, .analysi-disp p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .story-details h3{
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .story-details p {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .story-details h4{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .requitement-analysis h3 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .story-details h4, .requitement-analysis h4, .communications-wrap h4 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .analysi-disp h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .story-details h3, .communications-wrap h3, .contact-comm h3 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .communication{
+        background: #f3f6f9;
+        padding: 50px 0px 30px;
+    }
+    .contact-comm p{
+        font-size:16px;
+        line-height: 26px;
+    }
+}
+@media(max-width:1280px){
+    .story-details h3{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .story-details p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .story-details h4{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .requitement-analysis h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .story-details h4, .requitement-analysis h4, .communications-wrap h4 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .analysi-disp h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .analysi-disp p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .story-details h3, .communications-wrap h3, .contact-comm h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .contact-comm p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media(max-width:1199px){
+    .about-wrap h2 {
+        font-size: 36px;
+        line-height:46px;
+        width: 80% !important;
+    }
+}
+@media(max-width:991px){
+    .story-details h3, .communications-wrap h3, .contact-comm h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .about-wrap{
+        width: 100% !important;
+    }
+    .story-details h4, .requitement-analysis h4, .communications-wrap h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .story-details p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .requitement-analysis h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .analysi-disp h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .analysi-disp p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .requirements, .hiring, .initate, .delivery {
+        padding: 50px 0px;
+        position: relative;
+    }
+    .orders1{
+        order:2;
+    }
+    .orders2{
+        order:1;
+    }
+}
+@media(max-width:767px){
+    .story-details h3, .communications-wrap h3, .contact-comm h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .description-wrap p {
+        font-size: 14px !important;
+        line-height: 26px;
+        width: 100%;
+    }
+    .story-details h4{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .requirements, .hiring, .initate, .delivery {
+        padding: 25px 0px;
+        position: relative;
+    }
+    .requitement-analysis h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .story-details h4, .requitement-analysis h4, .communications-wrap h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .analysi-disp h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .analysi-disp p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .analysi-disp h4 {
+        margin: 0 0 10px;
+    }
+    .contact-comm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-comm p {
+        text-align: center;
+    }
+    .story-details p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .contact-comm img{
+        margin:0 0 5px;
+    }
+    .hiring::before, .delivery::before, .initate::before{display: none;}
+
+    .communications-wrap {
+        padding: 0 0 15px;
+    }
+    .requirements, .hiring, .initate, .delivery {
+        padding: 10px 0px;
+    }
+    
+
+}
+@media (max-width: 575px){
+.communication {
+    padding: 50px 0px 20px;
+}
+}

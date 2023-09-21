@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="100.425" viewBox="0 0 103 100.425">
+    <g data-name="Group 367">
+        <path data-name="Path 1100" d="M18.24 0h66.52A18.224 18.224 0 0 1 103 18.24v63.945a18.224 18.224 0 0 1-18.24 18.24H18.24A18.224 18.224 0 0 1 0 82.185V18.24A18.224 18.224 0 0 1 18.24 0z" style="fill:#2f303b"/>
+        <g data-name="download (2)">
+            <path data-name="Path 1342" d="M19 29.687a10.687 10.687 0 1 1 10.687 10.686A10.687 10.687 0 0 1 19 29.687z" transform="translate(33 20.813)" style="fill:#1abcfe"/>
+            <path data-name="Path 1343" d="M0 48.687A10.687 10.687 0 0 1 10.687 38h10.686v10.687a10.687 10.687 0 0 1-21.373 0z" transform="translate(30.627 23.186)" style="fill:#0acf83"/>
+            <path data-name="Path 1344" d="M19 0v21.373h10.687a10.687 10.687 0 0 0 0-21.373z" transform="translate(33 18.44)" style="fill:#ff7262"/>
+            <path data-name="Path 1345" d="M0 10.687a10.687 10.687 0 0 0 10.687 10.686h10.686V0H10.687A10.687 10.687 0 0 0 0 10.687z" transform="translate(30.627 18.44)" style="fill:#f24e1e"/>
+            <path data-name="Path 1346" d="M0 29.687a10.687 10.687 0 0 0 10.687 10.686h10.686V19H10.687A10.687 10.687 0 0 0 0 29.687z" transform="translate(30.627 20.813)" style="fill:#a259ff"/>
+        </g>
+    </g>
+</svg>

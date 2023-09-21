@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <clipPath id="dpumnh78ka">
+            <circle data-name="Ellipse 1032" cx="25" cy="25" r="25"/>
+        </clipPath>
+        <clipPath id="mld6xkdhkb">
+            <path data-name="Path 2949" d="m-514.377-40.435 7.069-5.167c.619-.5 1.088-.39 1.088.538v15.754c0 1.043-.584.928-1.088.538l-7.069-5.167zm-23.923-4.583v11.732a4.812 4.812 0 0 0 4.835 4.789h17.129a.888.888 0 0 0 .882-.871v-11.743a4.812 4.812 0 0 0-4.835-4.789h-17.129a.9.9 0 0 0-.882.882z" transform="translate(538.3 45.9)"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 1002">
+        <g data-name="Group 998">
+            <g data-name="Group 997" style="clip-path:url(#dpumnh78ka)">
+                <path data-name="Path 2947" d="M-626-200h52.727v52.727H-626z" transform="translate(624.637 198.637)" style="fill:#4a8cff"/>
+            </g>
+        </g>
+        <g data-name="Group 1000">
+            <g data-name="Group 999" transform="translate(8.684 16.293)" style="clip-path:url(#mld6xkdhkb)">
+                <path data-name="Path 2948" d="M-550.1-57.7h34.8v20.108h-34.8z" transform="translate(548.748 56.348)" style="fill:#fff"/>
+            </g>
+        </g>
+    </g>
+</svg>

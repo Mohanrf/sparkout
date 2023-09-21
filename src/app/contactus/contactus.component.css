@@ -1,0 +1,213 @@
+.getintouch h5 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #767676;
+}
+.getintouch a {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: left;
+  color: #252b33;
+  text-decoration: none;
+}
+.getintouch {
+  background: #fff;
+  padding: 0;
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.getintochform {
+  background: #f3f6f9 !important;
+  padding: 50px;
+}
+.contactpage-form {
+  padding: 50px;
+}
+.contact-social {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px 0px;
+}
+.branch-more-detail {
+  background: #f3f6f9;
+  padding-bottom: 30px;
+}
+.branch-detail h3,
+.branch-head-detail h3 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+  padding-bottom: 15px;
+  color: var(--secondrycolor);
+  position: relative;
+  z-index: 99;
+  margin: 0;
+}
+.branch-head-detail h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.branch-detail img {
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.branch-head-detail {
+  background: #fff;
+  padding: 35px;
+  border-radius: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.branch-head-detail img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  margin: 0 0 15px;
+}
+.branch-head-detail a {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767676;
+  font-weight: 500;
+  text-align: left;
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+}
+.branch-detail {
+  margin: 0 0 20px;
+}
+.branch-detail p {
+  padding: 0;
+}
+.branch-head-detail {
+  transition: 0.3s ease-in;
+}
+.branch-head-detail:hover {
+  box-shadow: rgba(229, 105, 30, 0.4) 0px 10px 36px 0px,
+    rgba(229, 105, 30, 0.06) 0px 0px 0px 1px;
+  transition: 0.3s ease-in;
+}
+
+.contact-social,
+.contact-social h5,
+.contact-social a {
+  transition: 0.3s ease-in;
+}
+.contact-social .sm-icon {
+  background: var(--primarycolor);
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 22px;
+  transition: 0.3s ease-in;
+}
+.contact-social:hover .sm-icon {
+  background: var(--secondrycolor);
+}
+.contact-social:hover a {
+  color: var(--primarycolor);
+}
+.getintouch .contact-social:hover h5 {
+  color: var(--secondrycolor);
+}
+
+@media (max-width: 1199px) {
+.branch-detail img {
+    margin: 0 auto 20px;
+}
+.branch-detail h3{
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.branch-head-detail {
+  padding: 25px;
+}
+.branch-head-detail img {
+  width: 45px;
+  height: 45px;
+}
+.branch-head-detail h3 {
+  font-size: 19px;
+  padding-bottom: 5px;
+}
+}
+@media (max-width: 991px) {
+.getintouch{
+  height: auto;
+  margin-bottom: 30px;
+}
+.contactpage-form{
+    padding: 40px;
+    margin-bottom: 0px!important;
+}
+.branch-detail p br{
+  display:none;
+}
+}
+@media (max-width: 767px) {
+.branch-detail{
+    margin: 0 0 30px;
+}
+.contactpage-form{
+  padding: 30px!important;
+  margin-bottom: 0px!important;
+}
+.branch-detail h3 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+.contact-branch-wrap{
+  padding-bottom:30px;
+}
+.branch-head-detail h3 {
+  font-size: 18px;
+}
+.branch-head-detail a {
+  font-size: 16px;
+}
+}
+@media (max-width: 480px) {
+.contact-social {
+    padding: 20px 0px 0px;
+}
+.getintouch h5 {
+  font-size: 15px;
+  line-height: 24px;
+}
+.getintouch a {
+  font-size: 16px;
+  line-height: 28px;
+}
+.branch-head-detail img {
+  width: 35px;
+  height: 35px;
+  margin: 0 0 10px;
+}
+.contact-social .sm-icon {
+  width: 40px;
+  height: 40px;
+  font-size: 17px;
+}
+.contactpage-form {
+  padding: 25px!important;
+}
+}

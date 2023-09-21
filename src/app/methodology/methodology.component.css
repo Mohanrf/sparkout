@@ -1,0 +1,271 @@
+
+.second, .methodlogy{
+    padding: 100px 0px;
+}
+.description-wrap h3{
+    font-size:32px;
+    line-height:55px;
+    font-weight:400;
+    color:#767676;
+    padding: 0;
+}
+.method-wrap h3, .common-method-wrap h3{
+    font-size:34px;
+    line-height:55px;
+    font-weight:600;
+    color:#252b33;
+    padding: 0;
+    margin:0;
+}
+.common-method-wrap h3{
+    color:#192a44;
+    font-weight: 700;
+    padding: 0 0 20px;
+}
+.common-method-wrap{
+    padding:0px 0px 0px 120px;
+}
+.common-method-wrap-right{
+    padding:0px 120px 0px 0px;
+}
+.method-wrap h4{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color:#192a44;
+    padding: 0;
+    width: 100%;
+}
+.description-wrap h4{
+    font-size: 48px;
+    line-height: 66px;
+    font-weight: 700;
+    color:#192a44;
+    margin: 0 0 15px;
+    padding: 0;
+    width: 89%;
+}
+.description-wrap p{
+    font-size: 26px;
+    line-height: 44px;
+    font-weight: 400;
+    color:#767676;
+    margin: 0;
+    padding: 0;
+}
+.aglie-method-before{
+    position: relative;
+}
+.aglie-method {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    transform: translateX(-5%);
+}
+.waterfall-method{
+    position: absolute;
+    top: 0;
+    right: -10%;
+    transform: translateX(-5%);
+}
+.common-method-wrap h6{
+    font-size: 24px;
+    line-height: 55px;
+    font-weight: 500;
+    color:#ff6c1a;
+    margin: 0;
+    padding: 0;
+}
+.common-method-wrap p{
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 400;
+    color:#767676;
+    margin: 0;
+    padding: 0 0 10px;
+}
+.pl-3{
+    padding-left: 15px;
+}
+.commontextwrap{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.agile-method-before {
+    position: relative;
+    left: -14%;
+    top: 50%;
+}
+/* .agile-method-after{
+    position: relative;
+    right: -11%;
+    top: 50%;
+} */
+.software-developemnt {
+    position: relative;
+}
+@media(max-width:1601px){
+    .description-wrap h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .description-wra h4 {
+        font-size: 40px;
+        line-height: 55px;
+        width: 100%;
+    }
+    .description-wrap h4 {
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .description-wrap p {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .method-wrap h3, .common-method-wrap h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .method-wrap h4 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .common-method-wrap h6 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .common-method-wrap{
+        padding: 0px 0px 0px 0px;
+    }
+    common-method-wrap-right{
+        padding: 0px 0px 0px 0px !important;
+    }
+}
+@media(max-width:1440px){
+    .description-wrap h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .description-wrap h4 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .second, .methodlogy {
+        padding: 50px 0px;
+    }
+    .method-wrap h4 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .method-wrap h3, .common-method-wrap h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media(max-width:1280px){
+    .description-wrap h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .description-wrap h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 0 0;
+    }
+    .description-wrap p {
+        font-size: 16px;
+        line-height: 26px;
+        width: 100%;
+    }
+    .method-wrap h3, .common-method-wrap h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .common-method-wrap h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .method-wrap h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .common-method-wrap p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media(max-width:991px){
+    .description-wrap h4 {
+        font-size: 20px;
+        line-height: 30px;
+        width:100%;
+    }
+    .description-wrap p {
+        font-size: 16px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .method-wrap h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .common-method-wrap p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .common-method-wrap h6 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .method-wrap h3, .common-method-wrap h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .description-wrap h3 {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0 0;
+    }
+}
+@media(max-width:767px){
+    .order-1{
+        order:2;
+    }
+    .order-2{
+        order:1;
+    }
+    .description-wrap p {
+        font-size: 14px;
+        line-height: 26px;
+        width: 100%;
+    }
+    .method-wrap h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .common-method-wrap p {
+        font-size: 14px;
+        line-height:26px;
+    }
+    .description-wrap h4 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .method-wrap h3{
+        font-size:16px;
+        line-height: 24px;
+    }
+    .common-method-wrap h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .second, .methodlogy {
+        padding: 20px 0px;
+    }
+    .agile-method-before{
+        left: 0%;
+        top: 50%;
+    }
+}

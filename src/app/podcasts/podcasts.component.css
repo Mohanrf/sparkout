@@ -1,0 +1,225 @@
+.blog-banner{
+  padding: 0px 0px 50px;
+  background: #fff;
+}
+.blog-banners{
+  padding: 50px 0px;
+}
+.blog-wrap h3, .blog-head h1{
+  font-size:34px;
+  line-height:55px;
+  font-weight: 600;
+  text-align: left;
+  color:#252b33;
+}
+.blog-head h1{
+  color:#767676;
+  font-weight: 400;
+}
+.blog-head h2{
+  font-size:64px;
+  line-height:86px;
+  font-weight: 700;
+  text-align: left;
+  color:#252b33;
+  padding: 0;
+  margin: 0 0 50px;
+}
+.banner-img img{
+  border-radius: 45px;
+}
+.filter-details h3{
+  font-size: 46px;
+  line-height: 60px;
+  color: #192a44;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+}
+.text-sm{
+  font-size:14px;
+  padding:5px 0px;
+}
+.blog-wrap{
+  margin:0 0 30px;
+}
+.blog-wrap img{
+  text-align:center;
+  margin:0 auto;
+}
+.blog-wrap p{
+  font-size:22px;
+  line-height:34px;
+  font-weight: 400;
+  text-align: left;
+  color:#767676;
+}
+.tech-list a{
+  color:#9e9e9e;
+}
+.actives{
+  font-weight: 500 !important;
+}
+.filter-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.blog-wrap a:hover{
+  text-decoration-line: none;
+  color:orange;
+}
+@media(max-width:1601px){
+  .blog-wrap h3, .blog-head h1 {
+      font-size: 26px;
+      line-height: 36px;
+  }
+  .blog-head h2 {
+      font-size: 48px;
+      line-height: 70px;
+  }
+  .filter-details h3 {
+      font-size: 42px;
+      line-height: 50px;
+  }
+  .blog-banners{
+      padding: 0px 0px 50px;
+  }
+}
+@media(max-width:1440px){
+  .blog-wrap h3, .blog-head h1 {
+      font-size: 18px;
+      line-height: 35px;
+  }
+  .blog-head h2 {
+      font-size: 36px;
+      line-height: 45px;
+      margin: 0 0 25px;
+  }
+  .filter-details h3 {
+      font-size: 36px;
+      line-height: 45px;
+  }
+  .what-we-dos {
+      padding: 50px 0px;
+  }
+  .blog-wrap h3{
+      font-size: 22px;
+      line-height: 34px;
+      font-weight: 600;
+  }
+  .blog-wrap p {
+      font-size: 14px;
+      line-height: 26px;
+  }
+}
+@media(max-width:1280px){
+  .blog-wrap h3 {
+      font-size: 18px;
+      line-height: 26px;
+  }
+  .blog-wrap h3, .blog-head h1 {
+      font-size: 16px;
+      line-height: 26px;
+  }
+  .blog-head h2 {
+      font-size: 30px;
+      line-height: 45px;
+      margin:0 0 20px;
+  }
+  .filter-details h3 {
+      font-size: 24px;
+      line-height: 26px;
+  }
+}
+@media(max-width:991px){
+  .blog-wrap h3, .blog-head h1 {
+      font-size: 16px;
+      line-height: 30px;
+  }
+  .blog-head h2 {
+      font-size: 30px;
+      line-height: 45px;
+  }
+  .filter-details h3 {
+      font-size: 20px;
+      line-height: 35px;
+  }
+}
+@media(max-width:767px){
+  .getintouch a {
+      font-size: 14px;
+      line-height: 26px;
+  }
+  .blog-wrap h3, .blog-head h1 {
+      font-size: 16px;
+      line-height: 30px;
+  }
+  .blog-head h2 {
+      font-size: 24px;
+      line-height: 36px;
+  }
+  .filter-details h3 {
+      font-size: 20px;
+      line-height:30px;
+      width: 100%;
+      margin: 0px 0px 20px;
+  }
+  .filter-details{
+      flex-wrap: wrap;
+  }
+}
+
+#block-nav{background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(183 183 183) 100%) !important;}
+.nav-menu {
+  padding: 12.5px 0;
+}
+ul.nav_list {
+  padding: 0 5rem;
+  text-align: center;
+  margin: auto;
+  list-style-type: none;
+  overflow: hidden;
+}
+ul.nav_list li {
+  float: left;
+  padding-bottom: 0;
+  padding-left: 3rem;
+}
+ul.nav_list li:first-child {
+  padding-right: 3rem;
+}
+ul.nav_list li .subscr-text {
+  color:#ff6c1a;
+}
+ul.nav_list li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+ul.nav_list li span {
+  color: #000;
+  font-weight: 500;
+}
+p.date {
+ margin-bottom: 0rem;
+ font-size: 1rem;
+}
+.podcasts a h6 {
+  color: #ff6c1a;
+  font-size: 0.9rem;
+}
+.podcasts a h3 {
+  font-weight: 600;
+  color: #252b33;
+  font-size: 1.35rem;
+}
+.podcasts a:hover, .podcasts a:focus{
+  text-decoration: none;
+}
+.podcasts img{border-radius: 20px;}
+hr{border-top: 1px solid #DADADA;}
+

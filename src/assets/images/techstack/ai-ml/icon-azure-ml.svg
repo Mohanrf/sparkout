@@ -1,0 +1,21 @@
+<svg id="Group_3781" data-name="Group 3781" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107.812" height="116" viewBox="0 0 107.812 116">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_6868" data-name="Path 6868" d="M39.577,0V43.671L0,88.023,7.506,116,68.235,43.671V0Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1" x2="0.015" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#50c7e8"/>
+      <stop offset="0.25" stop-color="#4cc3e4"/>
+      <stop offset="0.51" stop-color="#41b6da"/>
+      <stop offset="0.77" stop-color="#2fa2c8"/>
+      <stop offset="1" stop-color="#1989b2"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_6867" data-name="Path 6867" d="M0,88.023,7.506,116h92.8l7.506-27.977Z" fill="#198ab3"/>
+  <g id="Group_3780" data-name="Group 3780">
+    <g id="Group_3779" data-name="Group 3779" clip-path="url(#clip-path)">
+      <rect id="Rectangle_752" data-name="Rectangle 752" width="68.235" height="116" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <path id="Path_6869" data-name="Path 6869" d="M58,72.329,100.306,116l7.506-27.977L75.742,51.858Z" fill="#32bedd"/>
+</svg>

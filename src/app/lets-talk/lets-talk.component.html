@@ -1,0 +1,322 @@
+<section class="contact-us">
+  <div class="container mt-5">
+      <div class="row dosees">
+          <div class="col-lg-5 col-md-6 pr-0 col-sm-12 " >
+              <div class="getintouch">
+                  <h3>Get in Touch</h3>
+                  <h4 class="mb-5">Reach out to us and get started right away.</h4>
+                  <div class="contact-social">
+                      <div>
+                          <img src="assets/images/contact/skype.svg" width="40" height="40" alt="skype">
+                      </div>
+                      <div class="mx-3">
+                          <h5>Skype</h5>
+                          <a routerLink="skype:live:yokesh.sankar">yokesh.sankar</a>
+                      </div>
+                  </div>
+                  <div class="contact-social ">
+                      <div>
+                          <img src="assets/images/contact/mail.svg" width="40" height="40" alt="mail">
+                      </div>
+                      <div class="mx-3">
+                          <h5>Mail ID</h5>
+                          <a routerLink="mailto:contact@sparkouttech.com">contact@sparkouttech.com</a>
+                      </div>
+                  </div>
+                  <div class="contact-social mb-5">
+                      <div>
+                          <img src="assets/images/contact/phone.svg" width="40" height="40" alt="phone">
+                      </div>
+                      <div class="mx-3">
+                          <h5>Phone</h5>
+                          <a routerLink="tel:+91 8667726177">+91 86677 26177</a>
+
+                      </div>
+                  </div>
+                  <!-- <div class="contact-mob-no mb-5">
+                      <div class="mb-2">
+                          <h5>India</h5>
+                          <a routerLink="tel:+91 95007 39244">+91 95007 39244</a>
+                      </div>
+                      <div class="mb-2">
+                          <h5>USA</h5>
+                          <a routerLink="tel:+91 95007 39244">+91 95007 39244</a>
+                      </div>
+                  </div> -->
+              </div>
+        </div>
+        <div class="col-lg-7 col-md-6 pl-0 col-sm-12">
+              <div class="getintouch getintochform">
+                  <!-- <form [formGroup]="contactmail" (ngSubmit)="onSubmit()">
+                      <div class="row ">
+                          <div class="col-lg-6 col-md-6">
+                              <div class="form-floating ">
+                                  <input type="email" class="form-control" id="floatingInput" formControlName="name" placeholder="name@example.com" [ngClass]="{'is-invalid': submitted && f.name.errors}">
+                                  <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                                      <div *ngIf="f.name.errors.required">Name is required</div>
+                                  </div>
+                                  <label for="floatingInput">Your Name</label>
+                                </div>
+
+                          </div>
+                          <div class="col-lg-6 col-md-6">
+                              <div class="form-floating ">
+                                  <input type="email" class="form-control" id="floatingemail" placeholder="name@example.com" formControlName="email" [ngClass]="{'is-invalid': submitted && f.email.errors}" >
+                                  <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                                      <div *ngIf="f.email.errors.required">Email is required</div>
+                                      <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                                  </div>
+                                  <label for="floatingemail">Email ID</label>
+                                </div>
+                          </div>
+                      </div>
+                      <div class="row mb-3">
+
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+
+                              <div class="form-floating mb-3">
+                                  <input style="height:60px;margin-top:-50px;" placeholder="Phone Number" ng2TelInput (keypress)="numericOnly($event)" type="text" [ng2TelInputOptions]="{initialCountry: 'in'}" formControlName="phone_number" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.phone_number.errors }" />
+                                  <div *ngIf="submitted && f.phone_number.errors" >
+                                    <p class="text-danger text-sm" *ngIf="f.phone_number.errors.required">Phone is required</p>
+                                    <div class="text-danger text-sm" *ngIf="f.phone_number.errors.minlength">Phone must be at least 10 numbers.</div>
+                                    <div class="text-danger text-sm" *ngIf="f.phone_number.errors.maxlength">Phone must be  10 numbers.</div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                              <div class="form-floating mb-3">
+                                  <input type="text" class="form-control" id="skype" placeholder="name@example.com" formControlName="skype_id" [ngClass]="{'is-invalid': submitted && f.skype_id.errors}">
+                                  <div *ngIf="submitted && f.skype_id.errors" class="invalid-feedback">
+                                      <div *ngIf="f.skype_id.errors.required">Skype id is required</div>
+                                  </div>
+                                  <label for="skype">Skype ID</label>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row ">
+                          <div class="col-lg-12">
+                              <div class="form-floating">
+                                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 120px;" formControlName="message" [ngClass]="{'is-invalid':submitted && f.message.errors}"></textarea>
+                                  <div *ngIf="submitted && f.message.errors" class="invalid-feedback">
+                                      <div *ngIf="f.message.errors.required">Message is required</div>
+                                  </div>
+                                  <label for="floatingTextarea2">Message</label>
+                                </div>
+                          </div>
+                      </div>
+                      <div class="row mb-4">
+                          <p class="info-note">Once you fill out this form, our team will contact you within 24 hours.</p>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12">
+                              <div class="text-right">
+                                  <button class="btn about-us">Send Now</button>
+                              </div>
+                          </div>
+                      </div>
+                  </form> -->
+              </div>
+
+        </div>
+      </div>
+  </div>
+</section>
+<section class="contact-branch-wrap">
+  <div class="container">
+      <div class="row mb-5">
+          <div class="col-lg-8 mx-auto text-center">
+              <div class="common-head-wrap">
+                  <h3>Our Office</h3>
+                  <h4>Visit our offices, we’re easy to reach</h4>
+              </div>
+          </div>
+      </div>
+      <div class="row text-center">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="branch-detail">
+                  <img src="assets/images/contact/contact-main-branch.webp" class="img-fluid" alt="Sparkout Tech Soluiton Pvt Ltd">
+                  <h3>Head Office</h3>
+                  <p>No. 2 C.M.Nagar, Ramakrishnapuram, Coimbatore,
+                      Tamilnadu, India –641 006.</p>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+              <div class="branch-detail" >
+                  <img src="assets/images/contact/contact-branch-1.webp" class="img-fluid" alt="Sparkout Tech Soluiton Pvt Ltd">
+                  <h3>Branch Office</h3>
+                  <p>No: 4 Gem Colony, Near Siva Hospital, Ganapathy,
+                      Coimbatore Tamilnadu, India –641 006.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="branch-more-detail">
+  <div class="container">
+      <div class="row mb-5">
+          <div class="col-lg-6 ">
+              <div class="common-head-wrap text-left">
+                  <h3>More contacts</h3>
+                  <h4>Would you like to consult for Sales, Career, or Other?</h4>
+              </div>
+          </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 ">
+              <div class="branch-head-detail">
+                  <img src="assets/images/contact/business-consultant.svg" alt="Business Consultant">
+                  <h3>Business Consultant</h3>
+                  <a href="mailto:sales@Sparkouttech.com">sales@Sparkouttech.com</a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 ">
+              <div class="branch-head-detail">
+                  <img src="assets/images/contact/Hr-manager.svg" alt="HR Manager">
+                  <h3>HR Manager</h3>
+                  <a href="mailto:career@sparkouttech.com">career@sparkouttech.com</a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="branch-head-detail">
+                  <img src="assets/images/contact/adminstration-head.svg" alt="Administration Head">
+                  <h3>Administration Head</h3>
+                  <a href="mailto:contact@sparkouttech.com"> contact@sparkouttech.com</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="what-we-dos">
+  <div class="container">
+      <div class="row mb-4 d-flex align-items-center">
+          <div class="col-lg-8 col-md-8 col-sm-8">
+              <div class="title-wrap">
+                  <h4>News & Blog</h4>
+                  <h2>The Online Journal Center That Holds Every Latest Solution.</h2>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 my-3">
+             <div class="text-right">
+              <a class="btn about-us">Explore More</a>
+             </div>
+          </div>
+      </div>
+    <div class="row mb-5">
+        <div class="col-lg-12">
+          <owl-carousel-o [options]="blogPost">
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-1.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>Golang vs Node.js | A Detailed Comparison</h3>
+                      <div class="blog-author-detail">
+                          <p>By Raja Sekar  |  April 17, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-2.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>How eatzilla could change the world?</h3>
+                      <div class="blog-author-detail">
+                          <p>By Praveen Kumar  |  January 30, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-3.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>7 ways to reduce Android App size during app dev..</h3>
+                      <div class="blog-author-detail">
+                          <p><span class="author-detail">By Gunaselan</span>  | <span class="publish-date"> November 6, 2019</span></p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-1.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>Golang vs Node.js | A Detailed Comparison</h3>
+                      <div class="blog-author-detail">
+                          <p>By Raja Sekar  |  April 17, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-2.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>How eatzilla could change the world?</h3>
+                      <div class="blog-author-detail">
+                          <p>By Praveen Kumar  |  January 30, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-3.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>7 ways to reduce Android App size during app dev..</h3>
+                      <div class="blog-author-detail">
+                          <p><span class="author-detail">By Gunaselan</span>  | <span class="publish-date"> November 6, 2019</span></p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-1.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>Golang vs Node.js | A Detailed Comparison</h3>
+                      <div class="blog-author-detail">
+                          <p>By Raja Sekar  |  April 17, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-2.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>How eatzilla could change the world?</h3>
+                      <div class="blog-author-detail">
+                          <p>By Praveen Kumar  |  January 30, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-3.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>7 ways to reduce Android App size during app dev..</h3>
+                      <div class="blog-author-detail">
+                          <p><span class="author-detail">By Gunaselan</span>  | <span class="publish-date"> November 6, 2019</span></p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-1.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>Golang vs Node.js | A Detailed Comparison</h3>
+                      <div class="blog-author-detail">
+                          <p>By Raja Sekar  |  April 17, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-2.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>How eatzilla could change the world?</h3>
+                      <div class="blog-author-detail">
+                          <p>By Praveen Kumar  |  January 30, 2020</p>
+                      </div>
+                  </div>
+              </ng-template>
+              <ng-template carouselSlide>
+                  <div class="blog-wrap">
+                      <img src="assets/images/blog/blog-3.png" class="mb-4 img-fluid" alt="blogs">
+                      <h3>7 ways to reduce Android App size during app dev..</h3>
+                      <div class="blog-author-detail">
+                          <p><span class="author-detail">By Gunaselan</span>  | <span class="publish-date"> November 6, 2019</span></p>
+                      </div>
+                  </div>
+              </ng-template>
+            </owl-carousel-o>
+        </div>
+    </div>
+  </div>
+
+</section>
+<!-- <app-second-footer></app-second-footer> -->

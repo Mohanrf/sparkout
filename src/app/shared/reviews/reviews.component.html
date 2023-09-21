@@ -1,0 +1,215 @@
+<section class="reviews-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="title-wrap text-center">
+          <h4 class="d-flex justify-content-center">
+            <span class="dots"></span> Reviews
+          </h4>
+          <h2>
+            <span>Read</span> what our valued clients have <br />
+            to say about us <span class="dots"></span>
+          </h2>
+        </div>
+        <owl-carousel-o [options]="reviewsOptions">
+          <ng-template carouselSlide>
+            <div class="review-card">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="assets/images/home-new/logo-parkk.webp"
+                />
+
+                <source
+                  type="image/png"
+                  srcset="assets/images/home-new/logo-parkk.png"
+                />
+
+                <img
+                  loading="lazy"
+                  data-src="assets/images/home-new/logo-parkk.png"
+                  alt="Parkk"
+                  title="Parkk"
+                  width="155"
+                  height="37"
+                  class="img-fluid"
+                />
+              </picture>
+              <p>
+                Sparkout Developed and launched Parkk's android and IOS app from
+                scratch. We started with the UI/UX app screen design phase first
+                and then moved to development. It was a 1 year project and they
+                delivered a quality solution which was good to present in front
+                of investors and stable to goto market live.
+              </p>
+              <h3>Jason</h3>
+              <h4 class="d-flex align-items-center">
+                <span class="dots"></span> CEO, Parkk | USA
+              </h4>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="review-card">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="assets/images/home-new/logo-todo-delivery.webp"
+                />
+
+                <source
+                  type="image/png"
+                  srcset="assets/images/home-new/logo-todo-delivery.png"
+                />
+
+                <img
+                  loading="lazy"
+                  data-src="assets/images/home-new/logo-todo-delivery.png"
+                  alt="todo-delivery"
+                  title="todo-delivery"
+                  width="155"
+                  height="37"
+                  class="img-fluid"
+                />
+              </picture>
+              <p>
+                We have implemented together with Sparkout a complete delivery
+                solution, configured and translated for Argentina in
+                approximately 5 months. We have fixed all the technical issues
+                that arose during implementation.
+              </p>
+              <h3>Daniel G. Camps</h3>
+              <h4 class="d-flex align-items-center">
+                <span class="dots"></span> CEO, TODO Delivery | Uruguay
+              </h4>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="review-card">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="assets/images/home-new/logo-boxfood.webp"
+                />
+
+                <source
+                  type="image/png"
+                  srcset="assets/images/home-new/logo-boxfood.png"
+                />
+
+                <img
+                  loading="lazy"
+                  data-src="assets/images/home-new/logo-boxfood.png"
+                  alt="boxfood"
+                  title="boxfood"
+                  width="155"
+                  height="37"
+                  class="img-fluid"
+                />
+              </picture>
+              <p>
+                I would like to recommend sparkout tech solution team on their
+                patience, seriousness and professionalism. I'm glad we chose
+                your company to develop our Food Delivery product.
+              </p>
+              <h3>Senthil Kumar</h3>
+              <h4 class="d-flex align-items-center">
+                <span class="dots"></span> CEO, Box Food | India
+              </h4>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="review-card">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="assets/images/home-new/logo-zuki.webp"
+                />
+
+                <source
+                  type="image/png"
+                  srcset="assets/images/home-new/logo-zuki.png"
+                />
+
+                <img
+                  loading="lazy"
+                  data-src="assets/images/home-new/logo-zuki.png"
+                  alt="zuki"
+                  title="zuki"
+                  width="155"
+                  height="37"
+                  class="img-fluid"
+                />
+              </picture>
+              <p>
+                Sparkout Tech - BlockchainX are a professional, competent and
+                cost-effective team of crypto economists and coders, who deliver
+                on time and within budget the products we've commissioned them
+                to build. Highly recommended. Will use again and again.
+              </p>
+              <h3>Jim Phipps</h3>
+              <h4 class="d-flex align-items-center">
+                <span class="dots"></span> Zuki
+              </h4>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="review-card">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="assets/images/home-new/logo-bigtime.webp"
+                />
+
+                <source
+                  type="image/png"
+                  srcset="assets/images/home-new/logo-bigtime.png"
+                />
+
+                <img
+                  loading="lazy"
+                  data-src="assets/images/home-new/logo-bigtime.png"
+                  alt="bigtime"
+                  title="bigtime"
+                  width="155"
+                  height="37"
+                  class="img-fluid"
+                />
+              </picture>
+              <p>
+                Friendly and easy communication. Fast service. Highly skilled
+                and reliable team.
+              </p>
+              <h3>Kestas</h3>
+              <h4 class="d-flex align-items-center">
+                <span class="dots"></span> Big Time Token
+              </h4>
+            </div>
+          </ng-template>
+        </owl-carousel-o>
+
+        <a [routerLink]="['/contact-us']" class="btn btn-primary"
+          >Talk to our team
+          <picture>
+            <source
+              type="image/webp"
+              srcset="assets/images/home-new/icon-arrow-up.webp"
+            />
+            <source
+              type="image/png"
+              srcset="assets/images/home-new/icon-arrow-up.png"
+            />
+            <img
+              loading="lazy"
+              data-src="assets/images/home-new/icon-arrow-up.svg"
+              alt="arrow-icon"
+              title="arrow-icon"
+              width="21"
+              height="21"
+              class="img-fluid"
+            />
+          </picture>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

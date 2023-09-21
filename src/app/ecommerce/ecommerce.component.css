@@ -1,0 +1,345 @@
+.about-wrap{
+    width:90%;
+    margin-top: 30px;
+}
+.about-wrap h2 {
+    margin: 0 0 350px;
+}
+.droine-second-image{
+    padding: 100px 0px;
+    background:#f3f6f9;
+}
+.drone-tech{
+    margin-top:-400px;
+}
+.drone-tech img{
+    margin: 0 0 50px;
+}
+.drone-text-warp h3,.drone-benifit-textwrap h3, .our-industries-textwrap h2{
+    font-size:32px;
+    line-height:55px;
+    color:#252b33;
+    font-weight: 600;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.our-industries-textwrap h2{
+    color:#ff6c1a
+}
+.drone-text-warp h4,.drone-benifit-textwrap h4,.our-industries-textwrap h3{
+    font-size: 46px;
+    line-height: 60px;
+    color: #192a44;
+    font-weight: 700;
+    margin: 0 0 25px;
+    padding: 0;
+    width: 90%;
+}
+.our-industries-textwrap h3{
+    margin: 0 0 25px !important;
+    width: 100%;
+}
+.drone-text-wrap p, .drone-benifit-textwrap p, .our-industries-textwrap p{
+    font-size:26px;
+    line-height:44px;
+    color:#767676;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.drone-icon-wrap{
+    padding: 50px;
+    background:#ffffff;
+    border-radius: 15px;
+    display: flex;
+    width: 100%;
+    height: 98%;
+    flex-direction: column;
+    transition: .5s all ease-in-out;
+}
+.drone-icon-wrap:hover{
+    box-shadow: 0px 0px 10px #ff6c1a inset;
+    transition: .5s all ease-in-out;
+}
+.drone-icon-wrap img{
+    margin: 0 0 30px;
+}
+.drone-icon-wrap h4{
+    font-size:34px;
+    line-height:48px;
+    color:#252b33;
+    font-weight: 600;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.drone-icon-wrap p{
+    font-size:22px;
+    line-height:34px;
+    color:#767676;
+    font-weight: 500;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.benefits{
+    padding: 150px 0px;
+}
+.ourservices{
+    padding: 150px 0px;
+    background:#f3f6f9;
+}
+.ourservices h2{
+    margin:0 0 50px !important;
+}
+.ourservices .about-wrap h1{
+    color:#252b33 !important;
+    font-weight: 600;
+}
+.ourservices .about-wrap h2{
+    color:#192a44 !important;
+    font-weight: 700;
+}
+.drone-technologies{
+    padding: 150px 0px;
+}
+.drone-technologies h3{
+    margin: 0 auto;
+}
+.drone-technologies h4{
+    margin: 0 auto;
+}
+
+@media (max-width:1800px) {
+    .about-wrap{
+        width:90%;
+    }
+    .about-wrap h2 {
+        margin: 0 0 330px;
+    }
+}
+@media(max-width:1600px){
+    .drone-text-warp h4, .drone-benifit-textwrap h4, .our-industries-textwrap h3 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .drone-text-wrap p, .drone-benifit-textwrap p, .our-industries-textwrap p {
+        font-size: 24px;
+        line-height: 40px
+    }
+    .drone-text-warp h3, drone-benifit-textwrap h3, .our-industries-textwrap h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .drone-icon-wrap h4 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+@media(max-width:1440px){
+    .drone{
+        padding: 0px 0px 0px;
+    }
+    .about-wrap{
+        width: 90%;
+    }
+    .drone-icon-wrap{
+        padding: 40px;
+    }
+    .about-wrap{
+        width:90%;
+    }
+    .about-wrap h2 {
+        margin: 0 0 310px;
+    }
+    .drone-text-warp h3, drone-benifit-textwrap h3, .our-industries-textwrap h2 {
+        font-size: 20px;
+        line-height: 36px;
+        margin:0;
+    }
+    .drone-text-warp h4, .drone-benifit-textwrap h4, .our-industries-textwrap h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .drone-text-wrap p, .drone-benifit-textwrap p, .our-industries-textwrap p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .drone-icon-wrap h4 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .drone-text-warp h3, .drone-benifit-textwrap h3, .our-industries-textwrap h2 {
+        font-size: 18px;
+        line-height: 30px;
+        margin:0;
+    }
+    .drone-icon-wrap p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .droine-second-image{
+        padding: 75px 0px ;
+    }
+    .benefits,.ourservices,.drone-technologies{
+        padding: 75px 0px 75px;
+    }
+    .tech-list a {
+        font-size: 20px;
+    }
+    .ourservices h2 {
+        margin: 0 0 20px !important;
+    }
+    .drone-tech{
+        margin-top: -360px;
+    }
+    .drone-tech img {
+        margin: 0 0 25px;
+    }
+}
+@media(max-width:1280px){
+    .about-wrap h2 {
+        margin: 0 0 290px;
+    }
+    .drone-text-warp h3, drone-benifit-textwrap h3, .our-industries-textwrap h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .drone-text-warp h4, .drone-benifit-textwrap h4, .our-industries-textwrap h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .drone-text-wrap p, .drone-benifit-textwrap p, .our-industries-textwrap p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .drone-icon-wrap h4 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .drone-icon-wrap p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .about-wrap {
+        width: 100%;
+    }
+}
+@media(max-width:991px){
+    .about-wrap h2 {
+        margin: 0 0 270px;
+    }
+    .drone-text-warp h3, drone-benifit-textwrap h3, .our-industries-textwrap h2 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .drone-text-warp h4, .drone-benifit-textwrap h4, .our-industries-textwrap h3 {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .drone-text-wrap p, .drone-benifit-textwrap p, .our-industries-textwrap p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .drone-icon-wrap h4 {
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .drone-icon-wrap p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .droine-second-image{
+        padding: 100px 0px 50px;
+    }
+    .benefits,.ourservices,.drone-technologies{
+        padding: 50px 0px ;
+    }
+    .tech-list a {
+        padding: 20px 30px;
+        font-size: 18px;
+    }
+    .about-wrap{
+        width: 100%;
+    }
+    .drone-tech {
+        margin-top: -200px;
+    }
+    .about-wrap h2 {
+        margin: 0 0 100px;
+    }
+    .about-wrap h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .drone-icon-wrap{
+        padding: 25px;
+    }
+    .drone-icon-wrap img {
+        margin: 0 0 15px;
+    }
+    .drone-icon-wrap h4 {
+        margin: 0 0 10px;
+    }
+    .drone-text-warp h4{
+        margin:0 0 0;
+    }
+    .about-wrap h1 {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .drone{
+        padding: 0px 0px 0px;
+    }
+}
+@media(max-width:767px){
+    .about-wrap h2 {
+        margin: 0 0 40px;
+    }
+    .drone-tech img {
+        margin: 0 0 0px;
+    }
+    .drone-tech{
+        margin-top: -152px;
+    }
+    .drone-text-warp h3, drone-benifit-textwrap h3, .our-industries-textwrap h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .drone-text-warp h4, .drone-benifit-textwrap h4, .our-industries-textwrap h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .drone-text-wrap p, .drone-benifit-textwrap p, .our-industries-textwrap p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .drone-icon-wrap h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .drone-icon-wrap p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .tech-list a {
+        padding: 15px;
+        font-size: 14px;
+    }
+    li.tech-list {
+        margin: 20px 10px;
+    }
+    .drone{
+        padding: 0px 0px 0px;
+    }
+    .drone-icon-wrap img, .drone-icon-wrap img {
+        margin: 0 0 10px;
+        width: 50px;
+    }
+    .about-wrap h1 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .about-wrap {
+        margin-top: 20px;
+    }
+
+}

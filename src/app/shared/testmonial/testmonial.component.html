@@ -1,0 +1,231 @@
+<section class="what-we-do">
+  <div class="container">
+    <div class="row mb-4 d-flex align-items-center">
+      <div class="col-lg-7 col-md-8">
+        <div class="title-wrap no-pattern">
+          <h4>Client Testimonials</h4>
+          <h2>Rated 4.8/5.0 by 300+ clients for development services</h2>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-4 d-none d-md-block">
+        <div class="text-right">
+          <div class="spark-cta">
+            <a [routerLink]="['/contact-us']" class="about-us">
+              <span class="text">
+                Explore More
+                <span class="arrow">
+                  <i><span>→</span></i>
+                  <svg
+                    class="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                  >
+                    <g
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                    >
+                      <circle
+                        class="arrow-icon--circle"
+                        cx="16"
+                        cy="16"
+                        r="15.12"
+                      ></circle>
+                    </g>
+                  </svg>
+                </span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="client_feedback">
+      <div class="col-lg-12">
+        <owl-carousel-o [options]="testMonial">
+          <ng-template carouselSlide>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="testmonial-content">
+                  <div class="test-img-wrap">
+                    <img
+                      src="assets/images/testmonial/jason.jpeg"
+                      class="img-fluid"
+                      alt="testmonial"
+                    />
+                  </div>
+                  <div class="test-text-wrap">
+                    <img
+                      class="open-quotes"
+                      src="assets/images/testmonial/left-quote.svg"
+                      width="90"
+                      height="90"
+                      alt="Sparkout-Tech-Solution"
+                    />
+
+                    <div class="client-det">
+                      <div>
+                        <h3>Jason</h3>
+                        <h4>CEO of Parkk | USA</h4>
+                      </div>
+                    </div>
+                    <div class="client-msg-wrap">
+                      <p>
+                        Sparkout developed and launched an Android and iOS app
+                        from scratch. Additionally, they provided free support
+                        for two months after the launch to ensure bugs and
+                        updates were handled smoothly.
+                      </p>
+                    </div>
+                    <img
+                      class="close_quotes"
+                      src="assets/images/testmonial/right-quote.svg"
+                      width="90"
+                      height="90"
+                      alt="Sparkout-Tech-Solution"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="testmonial-content">
+                  <div class="test-img-wrap">
+                    <img
+                      src="assets/images/testmonial/danielgcampos.jpg"
+                      class="img-fluid"
+                      alt="testmonial"
+                    />
+                  </div>
+                  <div class="test-text-wrap">
+                    <img
+                      class="open-quotes"
+                      src="assets/images/testmonial/left-quote.svg"
+                      width="90"
+                      height="90"
+                      alt="Sparkout-Tech-Solution"
+                    />
+
+                    <div class="client-det">
+                      <div>
+                        <h3>Daniel G. Campos</h3>
+                        <h4>CEO | TODO Delivery | Uruguay</h4>
+                      </div>
+                    </div>
+                    <div class="client-msg-wrap">
+                      <p>
+                        We have implemented together with Sparkout a complete
+                        delivery solution, configured and translated for
+                        Argentina in approximately 5 months. We have fixed all
+                        the technical issues that arose during
+                        implementation.<span class="d-block"
+                          >The tests we did were satisfactory and technical
+                          problems could be solved in a relatively short
+                          time.</span
+                        >
+                      </p>
+                    </div>
+                    <img
+                      class="close_quotes"
+                      src="assets/images/testmonial/right-quote.svg"
+                      width="90"
+                      height="90"
+                      alt="Sparkout-Tech-Solution"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="testmonial-content">
+                  <div class="test-img-wrap">
+                    <img
+                      src="assets/images/testmonial/default-user.png"
+                      class="img-fluid"
+                      alt="testmonial"
+                    />
+                  </div>
+                  <div class="test-text-wrap">
+                    <img
+                      class="open-quotes"
+                      src="assets/images/testmonial/left-quote.svg"
+                      width="90"
+                      height="90"
+                      alt="Sparkout-Tech-Solution"
+                    />
+
+                    <div class="client-det">
+                      <div>
+                        <h3>Senthil Kumar</h3>
+                        <h4>Box Food | CEO</h4>
+                      </div>
+                    </div>
+                    <div class="client-msg-wrap">
+                      <p>
+                        I would like to recommend sparkout tech solution team on
+                        their patience, seriousness and professionalism. I'm
+                        glad we chose your company to develop our Food Delivery
+                        product.
+                      </p>
+                    </div>
+                    <img
+                      class="close_quotes"
+                      src="assets/images/testmonial/right-quote.svg"
+                      width="90"
+                      height="90"
+                      alt="Sparkout-Tech-Solution"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </owl-carousel-o>
+      </div>
+    </div>
+    <div class="text-center d-block d-md-none">
+      <div class="spark-cta">
+        <a [routerLink]="['/contact-us']" class="about-us">
+          <span class="text">
+            Explore More
+            <span class="arrow">
+              <i><span>→</span></i>
+              <svg
+                class="arrow-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+              >
+                <g
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                >
+                  <circle
+                    class="arrow-icon--circle"
+                    cx="16"
+                    cy="16"
+                    r="15.12"
+                  ></circle>
+                </g>
+              </svg>
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

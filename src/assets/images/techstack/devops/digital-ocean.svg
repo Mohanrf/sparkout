@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100.697" height="100.697" viewBox="0 0 100.697 100.697">
+    <defs>
+        <style>
+            .cls-2{fill:#0080ff;fill-rule:evenodd}
+        </style>
+    </defs>
+    <g id="XMLID_690_" transform="translate(-88.8 -45.125)">
+        <g id="XMLID_691_" transform="translate(88.8 45.125)">
+            <g id="Group_342" data-name="Group 342">
+                <g id="XMLID_44_">
+                    <g id="XMLID_48_">
+                        <path id="XMLID_49_" d="M139.156 145.822V126.3c20.668 0 36.711-20.5 28.775-42.249a29.237 29.237 0 0 0-17.413-17.356c-21.752-7.879-42.249 8.107-42.249 28.775H88.8c0-32.942 31.858-58.634 66.4-47.844a48.753 48.753 0 0 1 31.8 31.8c10.79 34.539-14.9 66.396-47.844 66.396z" transform="translate(-88.8 -45.125)" style="fill:#0080ff"/>
+                    </g>
+                    <path id="XMLID_47_" class="cls-2" d="M162.469 172.869H143V153.4h19.469z" transform="translate(-112.056 -91.583)"/>
+                    <path id="XMLID_46_" class="cls-2" d="M131.8 202.4h-14.9v-14.9h14.9z" transform="translate(-100.857 -106.214)"/>
+                    <path id="XMLID_45_" class="cls-2" d="M107.5 178.1H95v-12.5h12.5z" transform="translate(-91.46 -96.818)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

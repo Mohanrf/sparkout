@@ -1,0 +1,929 @@
+.about-wrap h2 {
+    margin: 0 0 15px;
+}
+.benefits, .story-section, .technolgies, .ourservices{
+    padding: 150px 0px;
+}
+.benefits{
+    background:#f3f6f9 !important;
+}
+.ourservices{
+    background:#f3f6f9;
+}
+.drone-benifit-textwrap h3{
+    font-size:32px;
+    line-height:55px;
+    color:#252b33;
+    font-weight: 600;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.drone-benifit-textwrap h4{
+    font-size: 46px;
+    line-height: 60px;
+    color: #192a44;
+    font-weight: 700;
+    margin: 0 0 25px;
+    padding: 0;
+    width: 90%;
+}
+.drone-benifit-textwrap p{
+    font-size:26px;
+    line-height:44px;
+    color:#767676;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.what-we-do{
+    background: #f3f6f9;
+    position: relative;
+}
+/* .what-we-do::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background: url(https://d1qktrytbkfjsu.cloudfront.net/image/home/waves.png);
+    background-size: cover;
+    top:-40px
+} */
+.company-info{
+    background:#192a44;
+    padding:40px 30px;
+    border-radius:15px;
+    width:95%;
+    height:100%;
+    margin:0 auto 0 0;
+    display:flex;
+    flex-direction:column
+}
+
+.company-info.even{
+    position:relative;top:30px
+}
+.company-info h3{
+    font-size:30px;
+    font-weight:600;
+    line-height:36px;
+    color:#fff;
+    margin:0;
+    padding:0
+}
+.company-info h4{
+    font-size:74px;
+    font-weight:600;
+    line-height:91px;
+    color:#ff6c1a;
+    margin:0 0 20px 0;
+    padding:0
+}
+.company-info p{
+    font-size:22px;
+    font-weight:300;
+    line-height:32px;
+    color:#ffffff;
+    margin:0;
+    padding:0
+}
+ul.our-industry{
+    list-style: none;
+    margin: 0;
+    padding: 40px 50px 25px;
+}
+ul.our-industry li a{
+    font-size:34px;
+    font-weight:400;
+    line-height:50px;
+    color:#252B33;
+    text-decoration:none;
+    display:block;
+    margin-bottom:35px;
+    transition:all .3s ease;
+}
+ul.our-industry li a:hover,ul.our-industry li a:focus{
+    color:#ff6c1a
+}
+.our-industry li:last-child, .our-industry li:last-child a{
+    margin-bottom: 0;
+}
+
+.active{
+    color:#ff6c1a !important;
+    font-weight:700 !important;
+    text-decoration:none
+}
+
+.service-same-height{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0!important;
+    text-align: center;
+}
+.services-list{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 0 0 30px;
+}
+.service-same-height img{
+    margin-bottom:20px;
+}
+.services-list h3{
+    font-size:30px;
+    line-height:46px;
+    font-weight:600;
+    margin-bottom:0;
+    text-align:center;
+    color:#252b33
+}
+.what-wedo-applist h3{
+    font-size:34px;
+    line-height:42px;
+    font-weight:600;
+    color:#252b33;
+    margin:0;
+    padding:0 0 15px
+}
+.what-wedo-applist{
+    background:#f3f6f9;
+    padding:40px 35px;
+    border-radius:10px;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.what-wedo-applist img{
+    width:90px;
+    height:60px;
+    object-fit:contain;
+    margin-bottom:25px !important
+}
+.what-wedo-applist p{
+    font-size:22px;
+    font-weight:500;
+    line-height:34px;
+    color:#767676;
+    margin:0;
+    padding:0;
+}
+.mobile-whatwedo {
+    display: none;
+}
+.desktop-whatwedo{
+    display: block;
+}
+.drone-icon-wrap{
+    padding: 50px;
+    background:#ffffff;
+    border-radius: 15px;
+    display: flex;
+    width: 100%;
+    height: 98%;
+    flex-direction: column;
+    transition:.3s ease-in-out;
+}
+.drone-icon-wrap:hover, .drone-icon-wrap:focus{
+    box-shadow: 0 0 10px #ff6c1a inset;
+    transition:.4s ease-in-out;
+}
+.drone-icon-wrap img{
+    margin: 0 0 30px;
+}
+.drone-icon-wrap h4{
+    font-size:34px;
+    line-height:48px;
+    color:#252b33;
+    font-weight: 600;
+    margin: 0 0 15px;
+    padding: 0;
+}
+.drone-icon-wrap p{
+    font-size:22px;
+    line-height:34px;
+    color:#767676;
+    font-weight: 500;
+    margin: 0 0 10px;
+    padding: 0;
+}
+@media(max-width:1601px){
+    .drone-benifit-textwrap h4{
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .drone-benifit-textwrap p {
+        font-size: 24px;
+        line-height: 40px
+    }
+    .drone-benifit-textwrap h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .company-info h4{
+        font-size:60px;
+        line-height:80px
+    }
+    .our-industry li{
+        margin:0 0 29px
+    }
+    .services-list h3{
+        font-size:22px;
+        line-height:32px
+    }
+    .drone-icon-wrap h4 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+@media(max-width:1440px){
+     drone-benifit-textwrap h3{
+        font-size: 20px;
+        line-height: 36px;
+        margin:0;
+    }
+   .drone-benifit-textwrap h4{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .drone-benifit-textwrap p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .benefits,.story-section, .technolgies, .ourservices{
+        padding: 75px 0px 75px;
+    }
+
+    .what-we-do{
+        padding: 75px 0px 75px;
+    }
+    .company-info h3{
+        font-size:20px;
+        line-height:30px
+    }
+    .company-info p{
+        font-size:16px;
+        line-height:26px
+    }
+    .company-info h4{
+        font-size:56px;
+        line-height:68px;
+        margin-bottom:10px
+    }
+    ul.our-industry{
+        padding: 40px 25px 25px;
+        width: 100%;
+    }
+    ul.our-industry li a{
+        font-size:24px;
+        line-height:40px;
+        margin:0 0 20px 0
+    }
+    .services-list h3{
+        font-size:22px;
+        line-height:32px
+    }
+    .what-wedo-applist h3{
+        font-size:24px;
+        line-height:37px;
+    }
+    .drone-icon-wrap{
+        padding: 40px;
+    }
+    .drone-icon-wrap h4 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .drone-icon-wrap p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .what-wedo-applist p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+@media(max-width:1280px){
+     .drone-benifit-textwrap h3{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .drone-benifit-textwrap h4{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .drone-benifit-textwrap p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .company-info h4{
+        font-size:40px;
+        line-height:48px;
+        margin-bottom:10px
+    }
+    .company-info h3{
+        font-size:16px;
+        line-height:26px
+    }
+    .company-info p{
+        font-size:14px;
+        line-height:26px
+    }
+    ul.our-industry li a{
+        font-size:18px;
+        line-height:35px
+    }
+    .services-listh3{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .services-list h3{
+        font-size:20px;
+        line-height:30px
+    }
+    .what-wedo-applist h3{
+        font-size:20px;
+        line-height:30px
+    }
+    .what-wedo-applist img{
+        margin-bottom:15px !important
+    }
+    .title-wrap h2{
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0 0 10px;
+    }
+    .drone-icon-wrap h4 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .drone-icon-wrap p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .what-wedo-applist p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media(max-width:1199px){
+    .company-info{
+        padding:30px 25px
+    }
+
+    .company-info p{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    ul.our-industry li a {
+        font-size: 19px;
+        line-height: 33px;
+      }
+    .our-industry li{
+        margin: 0 0 26px;
+    }
+    .what-wedo-applist p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media(max-width:991px){
+    .mobile-whatwedo {
+        display: block;
+    }
+    .desktop-whatwedo{
+        display: none;
+    }
+    drone-benifit-textwrap h3{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .drone-benifit-textwrap h4{
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .drone-benifit-textwrap p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .benefits .what-we-do, .story-section, .technolgies, .ourservices{
+        padding: 50px 0px 50px;
+    }
+    ul.our-industry li a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .our-industry li {
+        margin: 0 0 22px;
+    }
+
+    .services-list h3{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .what-wedo-applist h3{font-size: 16px;line-height: 22px;padding: 0 0 10px;}
+    .what-wedo-applist{padding: 20px;}
+    .what-wedo-applist img{width: 37px;height: 37px;}
+    .what-wedo-applist p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .title-wrap h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 0 10px;
+    }
+    .drone-icon-wrap p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .drone-icon-wrap{
+        padding: 25px;
+    }
+    .drone-icon-wrap img {
+        margin: 0 0 15px;
+    }
+    .drone-icon-wrap h4 {
+        margin: 0 0 10px;
+    }
+    .benefits, .story-section, .technolgies, .ourservices {
+        padding: 50px 0px 50px;
+    }
+    .fact{
+        padding-top: 20px;
+    }
+}
+@media(max-width:767px){
+    .what-wedo-applist p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .drone-benifit-textwrap h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .drone-benifit-textwrap h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .drone-benifit-textwrap p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .company-info h3{
+        font-size: 17px;
+        line-height: 20px;
+    }
+    ul.our-industry li a{
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0 0 10px 0;
+    }
+    .our-industry li{
+        margin: 0 0 15px;
+    }
+    .services-list h3{
+        font-size:14px !important;
+        line-height:24px
+    }
+    .what-wedo-applist p{
+        font-size:14px;
+        line-height:26px
+    }
+    .what-wedo-applist h3{
+        font-size:18px;
+        line-height:26px
+    }
+    .what-wedo-applist{
+        padding:20px 20px
+    }
+    .what-wedo-applist img{
+        margin-bottom:10px !important
+    }
+    .drone-icon-wrap h4 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .drone-icon-wrap p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .drone-benifit-imgtwo{
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .benefits, .story-section, .technolgies, .ourservices {
+        padding: 40px 0px 40px;
+    }
+    .drone-icon-wrap {
+        padding: 20px;
+    }
+}
+@media(max-width:575px){
+    .company-info h3 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .what-wedo-applist img{
+        margin-bottom:10px !important
+    }
+    .what-wedo-applist p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+    .about-wrap h2 {
+        margin: 0 0 0px;
+    }
+}
+@media(max-width:480px){
+    .company-info p{
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .what-wedo-applist p {
+        font-size: 13px;
+        line-height: 23px;
+      }
+      .benefits, .story-section, .technolgies, .ourservices {
+        padding: 30px 0px 30px;
+    }
+}
+
+
+
+.banner-section{
+  padding: 25px 0px 0px;
+}
+.overview,
+.overview-challange,
+.solutions,.why-choose,
+.contact-wrap,
+.relevant-project{
+  padding: 75px 0px 50px;
+}
+.overview-challange{
+  background: #f3f6f9;
+}
+.solutions{
+  background: #192a44;
+}
+.bg-grey{
+  background: #f3f6f9;
+  padding: 50px 50px 35px;
+  border-radius: 15px;
+}
+.banner-section{
+  position: relative;
+}
+.banner-text-wrap{
+  position: absolute;
+  top:50%;
+  left:20%;
+  width: 60%;
+  transform: translate(-20%, -50%);
+}
+.banner-text-wrap h1,
+.overview-wrap h1,
+.challange-wrap h1,
+.solution-wrap h1,
+.why-choose-wrap h1{
+  font-size:32px;
+  line-height:55px;
+  color:#e8eaec;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+.banner-text-wrap h2{
+  font-size:60px;
+  line-height:86px;
+  font-weight: 700;
+  color:#e7eaef;
+  padding: 0;
+  margin: 0 0 25px;
+}
+.banner-text-wrap p,
+.overview-wrap p,
+.challange-text-wrap p{
+  font-size:24px;
+  line-height:40px;
+  font-weight: 400;
+  color:#aab8cf;
+  padding: 0;
+  margin: 0 0 25px;
+  width:100%;
+}
+banner-text-wrap p{
+  width:75%;
+}
+.overview-wrap{
+  width:63%;
+}
+.overview-wrap h1{
+  font-weight: 500;
+  color:#252b33;
+}
+.overview-wrap h2,
+.challange-wrap h2,
+.solution-wrap h2,
+.why-choose-wrap h2,
+.contact-whole-wrap h1,
+.relevant-project h1{
+  font-size:44px;
+  line-height:60px;
+  font-weight: 700;
+  color:#192a44;
+  padding: 0;
+  margin: 0 0 25px;
+}
+.overview-wrap p{
+  color:#767676;
+  margin:0 0 0;
+}
+.overview-challange h1{
+  color:#252b33;
+}
+.bg-whites{
+  background:#fff;
+  padding: 50px 50px 20px;
+  border-radius: 15px;
+}
+.challange-text-wrap{
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+}
+.challange-text-wrap p{
+  width: 100%;
+  color:#767676;
+  margin:0;
+}
+.solution-wrap h1,
+.solution-wrap h2{
+  color:#fff;
+}
+.solutiontext-wrap{
+  padding:35px;
+}
+.solution-whole-wrap{
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:95%;
+  background: #fff;
+  transition: .3s all ease-in-out;
+}
+.solutiontext-wrap h3{
+  font-size:34px;
+  line-height:48px;
+  font-weight: 600;
+  color:#252b33;
+  padding: 0;
+  margin: 0 0 10px;
+}
+.solutiontext-wrap p,
+.contact-whole-wrap p{
+  font-size:22px;
+  line-height:34px;
+  font-weight: 400;
+  color:#767676;
+  padding: 0;
+  margin: 0 0 20px;
+}
+.solution-whole-wrap img{
+  filter: grayscale(1);
+  transition: .3s all ease-in-out;
+}
+.solution-whole-wrap:hover img{
+  filter: grayscale(0);
+  transition: .3s all ease-in-out;
+}
+.solution-whole-wrap:hover{
+  background:#ff6c1a;
+  transition: .3s all ease-in-out;
+}
+.solution-whole-wrap:hover .solutiontext-wrap h3,.solution-whole-wrap:hover .solutiontext-wrap p{
+  color: #fff;
+  transition: .3s all ease-in-out;
+}
+.why-choose-wrap h1{
+  color:#252b33 !important;
+  font-weight: 500;
+}
+.challange-text-wrap{
+  margin:0px 0px 15px;
+}
+
+@media(max-width:1601px){
+  .banner-text-wrap h1, .overview-wrap h1, .challange-wrap h1, .solution-wrap h1, .why-choose-wrap h1 {
+      font-size: 28px;
+      line-height: 50px;
+  }
+  .banner-text-wrap h2 {
+      font-size: 50px;
+      line-height: 70px;
+  }
+  .overview-wrap h2, .challange-wrap h2, .solution-wrap h2, .why-choose-wrap h2, .contact-whole-wrap h1, .relevant-project h1 {
+      font-size: 40px;
+      line-height: 55px;
+  }
+  .overview-wrap {
+      width: 65%;
+  }
+}
+@media(max-width:1440px){
+  .banner-text-wrap h1, .overview-wrap h1, .challange-wrap h1, .solution-wrap h1, .why-choose-wrap h1 {
+      font-size: 24px;
+      line-height: 40px;
+  }
+  .banner-text-wrap h2{
+      font-size: 42px;
+      line-height: 60px;
+  }
+  .banner-text-wrap p, .overview-wrap p, .challange-text-wrap p {
+      font-size: 20px;
+      line-height: 35px;
+  }
+  .overview-wrap h2, .challange-wrap h2, .solution-wrap h2, .why-choose-wrap h2, .contact-whole-wrap h1, .relevant-project h1 {
+      font-size: 30px;
+      line-height: 45px;
+  }
+  .overview-wrap{
+      width: 60%;
+  }
+  .solution-wrap {
+      width: 100%;
+  }
+  .solutiontext-wrap h3 {
+      font-size: 28px;
+      line-height: 40px;
+  }
+  .contact-whole-wrap p,.solutiontext-wrap p {
+      font-size: 20px;
+      line-height: 30px;
+  }
+  .banner-text-wrap p{
+      width: 80%;
+  }
+  .contact-whole-wrap {
+      padding: 50px;
+  }
+}
+@media(max-width:1280px){
+  .banner-text-wrap h1, .overview-wrap h1, .challange-wrap h1, .solution-wrap h1, .why-choose-wrap h1 {
+      font-size: 18px;
+      line-height: 35px;
+  }
+  .banner-text-wrap h2 {
+      font-size: 30px;
+      line-height: 40px;
+  }
+  .banner-text-wrap p {
+      font-size: 16px;
+      line-height: 26px;
+      width:75%;
+  }
+  .overview-wrap{
+      width: 100%;
+  }
+  .solutiontext-wrap{
+      padding: 25px;
+  }
+  .solutiontext-wrap h3 {
+      font-size: 20px;
+      line-height: 30px;
+  }
+  .banner-text-wrap p, .overview-wrap p, .challange-text-wrap p ,.solutiontext-wrap p{
+      font-size: 16px;
+      line-height: 26px;
+  }
+  .contact-whole-wrap p {
+      width: 75%;
+  }
+  .overview-wrap h2, .challange-wrap h2, .solution-wrap h2, .why-choose-wrap h2, .contact-whole-wrap h1, .relevant-project h1 {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+
+}
+@media(max-width:991px){
+  .banner-section, .overview, .overview-challange, .solutions, .why-choose, .contact-wrap, .relevant-project {
+      padding: 40px 0px;
+  }
+  .banner-text-wrap h2 {
+      font-size: 24px;
+      line-height: 36px;
+  }
+  .banner-text-wrap p, .overview-wrap p, .challange-text-wrap p, .solutiontext-wrap p, .contact-whole-wrap p, .solutiontext-wrap p {
+      font-size: 16px;
+      line-height: 26px;
+  }
+  .banner-text-wrap p{
+      width:90%;
+  }
+  .solutiontext-wrap h3 {
+      font-size: 20px;
+      line-height:30px;
+  }
+  .overview-wrap h2, .challange-wrap h2, .solution-wrap h2, .why-choose-wrap h2, .contact-whole-wrap h1, .relevant-project h1 {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  .contact-whole-wrap{
+      padding: 40px;
+  }
+  .solutiontext-wrap{
+      padding: 20px;
+  }
+  .banner-section{
+      padding: 0px 0px 0px !important;
+  }
+  .bg-whites,.bg-grey {
+      padding: 35px 30px 20px;
+      border-radius: 15px;
+  }
+}
+@media(max-width:767px){
+
+  .banner-text-wrap p, .overview-wrap p, .challange-text-wrap p, .solutiontext-wrap p, .contact-whole-wrap p, .solutiontext-wrap p {
+      font-size: 14px;
+      line-height: 26px;
+  }
+  .banner-text-wrap p{
+      width:100%;
+      display: none;
+  }
+  .banner-text-wrap h2{
+      font-size: 16px;
+      line-height: 24px;
+      width: 100%;
+  }
+  .solutiontext-wrap h3 {
+      font-size: 18px;
+      line-height:26px;
+  }
+  .overview-wrap h2, .challange-wrap h2, .solution-wrap h2, .why-choose-wrap h2, .contact-whole-wrap h1, .relevant-project h1 {
+      font-size: 18px;
+      line-height: 26px;
+  }
+
+  .contact-whole-wrap{
+      padding: 30px;
+  }
+  .solutiontext-wrap{
+      padding: 20px;
+  }
+  .banner-section{
+      padding: 0px 0px 0px !important;
+  }
+  .bg-whites,.bg-grey {
+      padding: 35px 30px 20px;
+      border-radius: 15px;
+  }
+  .challange-text-wrap{
+      margin: 0px 0px 10px;
+  }
+  .solutiontext-wrap p, .contact-whole-wrap p {
+      margin: 0 0 20px;
+  }
+  .contact-whole-wrap{
+      flex-wrap: wrap;
+      justify-content: end;
+  }
+  .title-wrap {
+        text-align: center;
+    }
+}
+
+.autonomous{
+  background:#ff6c1a;
+}
+.autonomous .container-fluid{
+  padding:0;
+  max-width:100%;
+}
+.autonomous .container-fluid .row{
+  margin:0;
+}
+.no-padding{
+  padding:0;
+}
+.autonomous-imgwrap img{width:100%;}
+.autonomous-textwrap{
+padding:10px 100px;
+}
+.autonomous-textwrap h2{
+  color:#FFF;
+  font-size:52px;
+  line-height:62px;
+}
+.autonomous-textwrap p{
+  color:#FFF;
+  font-size:26px;
+  line-height:38px;
+}
